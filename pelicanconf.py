@@ -11,10 +11,7 @@ DEFAULT_LANG = u'en'
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('Minecraft', 'http://hiigara.onitato.com'),)
+LINKS =  (('Minecraft Server', 'http://hiigara.onitato.com'),)
 
 # Social widget
 SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),

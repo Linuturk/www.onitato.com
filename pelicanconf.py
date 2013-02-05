@@ -10,7 +10,7 @@ SITEURL = 'http://www.onitato.com'
 TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'
-GITHUB_URL = 'http://github.com/linuturk/'
+GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),

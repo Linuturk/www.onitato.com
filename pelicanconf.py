@@ -36,5 +36,5 @@ DISPLAY_PAGES_ON_MENU = True
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 
 # Page settings
-PAGE_DIR ('pages')
-ARTICLE_EXCLUDES: (('pages',))
+PAGE_DIR = ('pages')
+ARTICLE_EXCLUDES = (('pages',))

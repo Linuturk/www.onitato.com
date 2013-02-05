@@ -6,9 +6,7 @@ PLUGINS = ['pelican.plugins.gravatar',]
 AUTHOR = u'Justin Phelps'
 SITENAME = u"Linuturk's Natter"
 SITEURL = 'http://www.onitato.com'
-
 TIMEZONE = 'America/Chicago'
-
 DEFAULT_LANG = u'en'
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
@@ -30,3 +28,6 @@ DEFAULT_PAGINATION = 10
 
 # static paths will be copied under the same name
 STATIC_PATHS = ["images", ]
+
+# Enable pages on the menu
+DISPLAY_PAGES_ON_MENU = True

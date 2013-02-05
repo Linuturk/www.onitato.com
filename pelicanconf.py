@@ -26,7 +26,8 @@ SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
 STATIC_PATHS = ["images", ]
 
 # A list of files to copy from the source to the destination
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
+                 ('extra/favicon.ico', 'favicon.ico'),)
 
 # Enable pages on the menu
 DISPLAY_PAGES_ON_MENU = True

@@ -12,7 +12,8 @@ DEFAULT_PAGINATION = 10
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll
-LINKS =  (('Minecraft Server', 'http://hiigara.onitato.com'),)
+LINKS =  (('Minecraft Server', 'http://hiigara.onitato.com'),
+          ('Old Blog', 'http://linuturk.blogspot.com'),)
 
 # Social widget
 SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),

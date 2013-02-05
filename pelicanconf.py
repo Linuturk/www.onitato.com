@@ -34,3 +34,7 @@ DISPLAY_PAGES_ON_MENU = True
 
 # A list of files to copy from the source to the destination
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+
+# Page settings
+PAGE_DIR ('pages')
+ARTICLE_EXCLUDES: (('pages',))

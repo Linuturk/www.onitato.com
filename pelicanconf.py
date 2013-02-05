@@ -8,6 +8,7 @@ SITENAME = u"Linuturk's Natter"
 SITEURL = 'http://www.onitato.com'
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
+DEFAULT_PAGINATION = 10
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll
@@ -20,16 +21,14 @@ SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
           ('twitter', 'https://twitter.com/linuturk'),
           ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
-DEFAULT_PAGINATION = 10
-
 # static paths will be copied under the same name
 STATIC_PATHS = ["images", ]
 
-# Enable pages on the menu
-DISPLAY_PAGES_ON_MENU = True
-
 # A list of files to copy from the source to the destination
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+
+# Enable pages on the menu
+DISPLAY_PAGES_ON_MENU = True
 
 # Page settings
 PAGE_DIR = ('pages')

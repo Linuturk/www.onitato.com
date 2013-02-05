@@ -14,14 +14,13 @@ GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
           ('Python.org', 'http://python.org'),
           ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
+          ('Minecraft', 'http://hiigara.onitato.com'),)
 
 # Social widget
 SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
           ('github', 'https://github.com/Linuturk'),
           ('facebook', 'https://www.facebook.com/linuturk'),
           ('twitter', 'https://twitter.com/linuturk'),
-          ('youtube', 'http://www.youtube.com/user/Linuturk'),
           ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
 DEFAULT_PAGINATION = 10

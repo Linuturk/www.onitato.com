@@ -35,3 +35,6 @@ DISPLAY_PAGES_ON_MENU = True
 # Page settings
 PAGE_DIR = ('pages')
 ARTICLE_EXCLUDES = (('pages',))
+
+GOOGLE_ANALYTICS = "UA-34793085-1"
+TWITTER_USERNAME = "Linuturk"

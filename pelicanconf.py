@@ -1,13 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
+PLUGINS = ['pelican.plugins.gravatar',]
+
 AUTHOR = u'Justin Phelps'
 SITENAME = u"Linuturk's Natter"
-SITEURL = ''
+SITEURL = 'http://www.onitato.com'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = u'en'
+GITHUB_URL = 'http://github.com/linuturk/'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
@@ -16,7 +19,14 @@ LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
+          ('github', 'https://github.com/Linuturk'),
+          ('facebook', 'https://www.facebook.com/linuturk'),
+          ('twitter', 'https://twitter.com/linuturk'),
+          ('youtube', 'http://www.youtube.com/user/Linuturk'),
+          ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
 DEFAULT_PAGINATION = 10
+
+# static paths will be copied under the same name
+STATIC_PATHS = ["images", ]

@@ -5,7 +5,7 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = ''
+SITEURL = 'http://www.onitato.com'
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -15,4 +15,4 @@ DELETE_OUTPUT_DIRECTORY = True
 #RELATIVE_URLS = False
 
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-34793085-1"

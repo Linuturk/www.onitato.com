@@ -1,4 +1,4 @@
-Title: Onitato?
+Title: onitato?
 Status: published
 
 <img alt="Oni" src="/static/images/oni.jpg" title="Oni" class="right">

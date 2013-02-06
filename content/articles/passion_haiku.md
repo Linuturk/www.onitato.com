@@ -7,6 +7,6 @@ Author: Justin Phelps
 Summary: I wrote this haiku as part of my Rookie Orientation at Rackspace.
 
 I wrote this haiku as part of my Rookie Orientation at Rackspace.
-Burning desire grows.
-Smoldering embers ignite.
-Show them your passion.
+> *Burning desire grows.*
+> *Smoldering embers ignite.*
+> *Show them your passion.*

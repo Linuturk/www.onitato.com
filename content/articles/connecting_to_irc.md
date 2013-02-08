@@ -25,7 +25,7 @@ If you aren't already using one of these clients, you might want to consider the
 
 ### Dedicated IRC Client
 
-If you are like me, you want to separate a group chat experience from the one-on-one experience of other instant messenger clients. Here are some popular, dedicated client choices:
+If you are like me, you want to separate a group chat experience from the one-on-one experience of other instant messenger clients. Here are some popular dedicated client choices:
 
  * [irssi](http://www.irssi.org/) - My preferred client.
  * [X-Chat](http://xchat.org/)
@@ -54,7 +54,7 @@ Bots are automated systems that you send commands to accomplish tasks.
  * **ChanServ** is responsible for channel operations, such as registering channels and performing other administrative tasks.
  * **NickServ** is responsible for nickname operations, including registering and protecting your chosen nickname. This should be the first bot you interact with when connecting to a server.
 
-You can send commands to these bots by sending them a private message. Private messages work for bots, and other users on the server (depending on the configuration.) Every private message begins with the "/msg" command.
+You can send commands to these bots by sending them a private message. Private messages work for bots, and other users on the server (depending on the configuration). Every private message begins with the "/msg" command.
 
 On the popular Freenode network, use the following format to register your nickname:
 
@@ -72,4 +72,4 @@ On most networks, that will output a listing of commands and short descriptions 
 
 ## Join a Channel
 
-Now that you are identified with NickServ on your IRC server, you can now join a channel! Just type "/join #channelname". A new tab or window should open up, and you'll be in the channel and ready to chat. Congratulations, you are using IRC!
+Now that you are identified with NickServ on your IRC server, you can join a channel! Just type "/join #channelname". A new tab or window should open up, and you will be in the channel and ready to chat. Congratulations, you are using IRC!

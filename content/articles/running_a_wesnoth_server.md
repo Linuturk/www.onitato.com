@@ -42,7 +42,8 @@ You should see output similar to the following. I've highlighted the line where 
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name  
 tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      783/cupsd          
-tcp        0      0 0.0.0.0:15000           0.0.0.0:*               LISTEN      3151/wesnothd       tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      1101/sendmail: acce
+**tcp        0      0 0.0.0.0:15000           0.0.0.0:*               LISTEN      3151/wesnothd**
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      1101/sendmail: acce
 tcp        0      0 0.0.0.0:17500           0.0.0.0:*               LISTEN      1542/dropbox      
 tcp6       0      0 :::631                  :::*                    LISTEN      1/systemd          
 udp        0      0 0.0.0.0:68              0.0.0.0:*                           1072/dhclient      

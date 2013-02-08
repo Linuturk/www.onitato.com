@@ -36,27 +36,10 @@ Now we will use the **netstat** command to determine on which IP and port the w
 
 > **# netstat -tulnp**
 
-You should see output similar to the following. I've highlighted the line where wesnothd is displayed.
+You should see a line similar to the following in your output:
 
-```
-Active Internet connections (only servers)
-Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name  
-tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      783/cupsd          
-**tcp        0      0 0.0.0.0:15000           0.0.0.0:*               LISTEN      3151/wesnothd**
-tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      1101/sendmail: acce
-tcp        0      0 0.0.0.0:17500           0.0.0.0:*               LISTEN      1542/dropbox      
-tcp6       0      0 :::631                  :::*                    LISTEN      1/systemd          
-udp        0      0 0.0.0.0:68              0.0.0.0:*                           1072/dhclient      
-udp        0      0 0.0.0.0:4687            0.0.0.0:*                           1072/dhclient      
-udp        0      0 0.0.0.0:17500           0.0.0.0:*                           1542/dropbox      
-udp        0      0 0.0.0.0:631             0.0.0.0:*                           1/systemd          
-udp        0      0 0.0.0.0:123             0.0.0.0:*                           826/chronyd        
-udp        0      0 0.0.0.0:5353            0.0.0.0:*                           779/avahi-daemon: r
-udp        0      0 0.0.0.0:323             0.0.0.0:*                           826/chronyd        
-udp        0      0 0.0.0.0:35228           0.0.0.0:*                           779/avahi-daemon: r
-udp6       0      0 :::123                  :::*                                826/chronyd        
-udp6       0      0 :::323                  :::*                                826/chronyd        
-udp6       0      0 :::3440                 :::*                                1072/dhclient       
+```bash
+tcp        0      0 0.0.0.0:15000           0.0.0.0:*               LISTEN      3151/wesnothd
 ```
 
 As you can see, the wesnothd service is listening for traffic on any IP and port 15000. This is the port we will need to open in the firewall. We will need to edit the file **/etc/sysconfig/iptables** and restart the iptables service. Add the following to this file using your favorite text editor. This text should go at the end of the other INPUT statements.

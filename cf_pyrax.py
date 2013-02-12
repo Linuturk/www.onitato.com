@@ -20,24 +20,24 @@ cf_ord = pyrax.cloudfiles
 # Create the container object
 cont = cf_ord.get_container(container)
 
-# Empty the container
-print "Deleting all objects in %s container." % container
-cont.delete_all_objects()
-
-# Confirm container is empty
-while cont.get_objects() != []:
-    print "Deletion in progress . . . "
-    time.sleep(1)
-else:
-    print "Deletion complete."
-
 # Upload the entire folder to the cloud files container.
 print "Uploading all objects to %s container from folder %s." % (container, folder)
-upload_key, total_bytes = cf_ord.upload_folder(folder, container)
+upload_key, total_bytes = cf_ord.sync_folder_to_container(folder, container, delete=True, include_hidden=True, ignore_timestamps=True)
+
+count = 0
+timeout_error = 0
 
 while total_bytes != pyrax.cloudfiles.get_uploaded(upload_key):
     uploaded_bytes = pyrax.cloudfiles.get_uploaded(upload_key)
     print "Still uploading %i out of %i" % (uploaded_bytes, total_bytes)
     time.sleep(1)
+    count += 1
+    if count > 60:
+        timeout_error = 1
+        break
 else:
-    print "Upload of %i bytes complete." % total_bytes
+    if timeout_error == 0:
+        print "Upload of %i bytes complete." % total_bytes
+    else:
+        print "Upload progress timed out. You might want to re-run the upload."
+        return 1

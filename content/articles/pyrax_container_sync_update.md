@@ -1,6 +1,5 @@
 Title: Pyrax Container Sync Update
 Status: draft
-Date:
 Tags: pyrax, python, rackspace, cloud files
 Category: rackspace
 Slug: pyrax-container-sync-update

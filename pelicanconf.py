@@ -8,6 +8,7 @@ SITENAME = u"Linuturk's Natter"
 SITEURL = 'http://www.onitato.com'
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
+DEFAULT_DATE = 'fs'
 DEFAULT_PAGINATION = 10
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 

@@ -4,7 +4,7 @@ Tags: blog, rackspace, jenkins, pelican, git, github, cloudfiles
 Category: tutorial
 Slug: no-hassle-blog-automation
 Author: Justin Phelps
-Summary: Managing a blog can be a hassle. Operating system updates, blog software updates, and server security take up tons of time. Don't forget about scaling your blog if you get popular. Inspired by the [Rackspace DevOps post](http://devops.rackspace.com/the-new-devops-blog.html) on their new blog format, I've setup my own version using [Pelican](http://blog.getpelican.com/) instead of [Octopress](http://octopress.org/).
+Summary: Managing a blog can be a hassle. Operating system updates, blog software updates, and server security take up tons of time. Don't forget about scaling your blog if you get popular. Inspired by the Rackspace DevOps post -  http://devops.rackspace.com/the-new-devops-blog.html on their new blog format, I've setup my own version using Pelican - http://blog.getpelican.com/ instead of Octopress -  http://octopress.org/.
 
 Managing a blog can be a hassle. Operating system updates, blog software updates, and server security take up tons of time. Don't forget about scaling your blog if you get popular. Inspired by the [Rackspace DevOps post](http://devops.rackspace.com/the-new-devops-blog.html) on their new blog format, I've setup my own version using [Pelican](http://blog.getpelican.com/) instead of [Octopress](http://octopress.org/).
 

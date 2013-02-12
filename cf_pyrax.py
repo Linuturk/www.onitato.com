@@ -40,4 +40,3 @@ else:
         print "Upload of %i bytes complete." % total_bytes
     else:
         print "Upload progress timed out. You might want to re-run the upload."
-        return 1

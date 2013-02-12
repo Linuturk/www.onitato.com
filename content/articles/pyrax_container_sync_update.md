@@ -15,9 +15,9 @@ pip install --upgrade pyrax
 ```
 
 I identifed this problem in Issue [#4](https://github.com/Linuturk/www.onitato.com/issues/4), and you can find the code changes in the following commits:
- * [05dfa58](https://github.com/Linuturk/www.onitato.com/commit/05dfa581c16b82a7d6cf2dccb0646d1927d3786a)
- * [06f0a10](https://github.com/Linuturk/www.onitato.com/commit/06f0a101e438a06698e3c9bfeead8791fdc75724)
- * [5dd41e1](https://github.com/Linuturk/www.onitato.com/commit/5dd41e1003a43db4ec6c0d6b651c55e227c58f4e)
+* [05dfa58](https://github.com/Linuturk/www.onitato.com/commit/05dfa581c16b82a7d6cf2dccb0646d1927d3786a)
+* [06f0a10](https://github.com/Linuturk/www.onitato.com/commit/06f0a101e438a06698e3c9bfeead8791fdc75724)
+* [5dd41e1](https://github.com/Linuturk/www.onitato.com/commit/5dd41e1003a43db4ec6c0d6b651c55e227c58f4e)
 
 There is an [interesting issue](https://github.com/rackspace/pyrax/issues/14) in pyrax where the default encoding doesn't seem to be set if you aren't using a pyrax.cfg. Make sure you leave the default encoding setting, or you will run into this problem as well.
 

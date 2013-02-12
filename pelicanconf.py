@@ -12,7 +12,7 @@ DEFAULT_PAGINATION = 10
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll
-LINKS =  (('Minecraft Server', 'http://hiigara.onitato.com'),
+LINKS =  (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issues'),
           ('Old Blog', 'http://linuturk.blogspot.com'),)
 
 # Social widget
@@ -23,7 +23,7 @@ SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
           ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
 # static paths will be copied under the same name
-STATIC_PATHS = ["images", ]
+STATIC_PATHS = ['images', ]
 
 # A list of files to copy from the source to the destination
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),

@@ -49,16 +49,16 @@ Installation and configuration instructions for Pierc can be found [here](http:/
 python pierc_db.py
 ```
 
-5. Start a *tmux* or *screen* session, and run the following command to start Pierc. You can then detach from your *tmux* or *screen* session, and Pierc will continue to run.
-
-```bash
-python pierc.py
-```
-
 ## Pierc Web Interface
 
 The downloaded package also includes a web folder that contains all the files necessary for the web interface. Copy this to your Apache Document Root. You will need to copy the *config.php.example* file to *config.php* and then modify the necessary values to connect to the MySQL database.
 
-## Congratulation!
+## Start Pierc
+
+Start a *tmux* or *screen* session, and run the following command to start Pierc. You can then detach from your *tmux* or *screen* session, and Pierc will continue to run.
+
+```bash
+python pierc.py
+```
 
 You should see a new user join your IRC channels. This user will have the name you configured in irc_config.txt as **nick:**. That's your new bot, happily logging all the channel's messages to the database server. Browse to your server's web interface, and you should see the logs appear. Good Work!

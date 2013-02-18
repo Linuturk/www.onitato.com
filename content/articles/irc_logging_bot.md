@@ -1,5 +1,4 @@
 Title: IRC Logging Bot
-Status: draft
 Tags: irc, pierc, python, logging
 Category: tutorial
 Slug: irc-logging-bot

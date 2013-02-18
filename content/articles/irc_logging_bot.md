@@ -49,7 +49,7 @@ Installation and configuration instructions for Pierc can be found [here](http:/
 python pierc_db.py
 ```
 
-1. Start a *tmux* or *screen* session, and run the following command to start Pierc. You can then detach from your *tmux* or *screen* session, and Pierc will continue to run.
+5. Start a *tmux* or *screen* session, and run the following command to start Pierc. You can then detach from your *tmux* or *screen* session, and Pierc will continue to run.
 
 ```bash
 python pierc.py

@@ -1,5 +1,4 @@
 Title: Send Email for yum-cron Update
-Status: draft
 Tags: email, yum, yum-cron, yum-updatesd
 Category: tutorial
 Slug: send-email-for-yum-cron-update

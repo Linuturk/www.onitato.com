@@ -24,7 +24,7 @@ The [github repository](https://github.com/tpope/vim-pathogen) for vim-pathogen 
 
 ## vim-flake8
 
-Here is the plugin that will work our magic. Go follow the [installation instructions](https://github.com/nvie/vim-flake8) for vim-flake8. Just just need to clone the repository into the ~/.vim/bundle directory. If you've followed the instructions properly up to this point, everything should be working as expected. Here is my .vimrc file for comparison. Note that I've added a few additional options I find useful when coding in Python.
+Here is the plugin that will work our magic. Go follow the [installation instructions](https://github.com/nvie/vim-flake8) for vim-flake8. Just clone this repository into the ~/.vim/bundle directory. If you've followed the instructions properly up to this point, everything should be working as expected. Here is my .vimrc file for comparison. Note that I've added a few additional options I find useful when coding in Python.
 
 ```
 execute pathogen#infect()

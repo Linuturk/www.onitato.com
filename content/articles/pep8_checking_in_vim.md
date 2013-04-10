@@ -1,5 +1,4 @@
 Title: PEP8 Checking in Vim
-Status: draft
 Tags: pep8, python, vim, flake8, vim-pathogen
 Category: tutorial
 Slug: pep8-checking-in-vim

@@ -30,6 +30,7 @@ STATIC_PATHS = ['images', ]
 
 # A list of files to copy from the source to the destination
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
+                 ('extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt', 'loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt'),
                  ('extra/favicon.ico', 'favicon.ico'),)
 
 # Enable pages on the menu

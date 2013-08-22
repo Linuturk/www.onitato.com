@@ -50,12 +50,13 @@ my-rackspace-config:
 ```
 
 Be sure to replace the appropriate sections with your specific information:
- * **my-rackspace-config** can be whatever label you want to use. Depending on your use case, it might make sense to identify specific regions by this name.
- * **saltmaster.yourdomain.com** should be replaced with your salt-master's DNS name.
- * **compute_region** should be set to the region where you want to deploy resources. Options include DFW, ORD, SYD, and IAD if you have a US Rackspace account.
- * **user** should be the username associated with your account.
- * **tenant** is your Rackspace Account Number. This can be found at the top, right of your [Rackspace Control Panel](https://mycloud.rackspace.com).
- * **apikey** can be found in the [Rackspace Control Panel](https://mycloud.rackspace.com) as well. Just go to your Account Settings and look for the API Key.
+
+* **my-rackspace-config** can be whatever label you want to use. Depending on your use case, it might make sense to identify specific regions by this name.
+* **saltmaster.yourdomain.com** should be replaced with your salt-master's DNS name.
+* **compute_region** should be set to the region where you want to deploy resources. Options include DFW, ORD, SYD, and IAD if you have a US Rackspace account.
+* **user** should be the username associated with your account.
+* **tenant** is your Rackspace Account Number. This can be found at the top, right of your [Rackspace Control Panel](https://mycloud.rackspace.com).
+* **apikey** can be found in the [Rackspace Control Panel](https://mycloud.rackspace.com) as well. Just go to your Account Settings and look for the API Key.
 
 ### /etc/salt/cloud.profiles.d/openstack.conf
 
@@ -141,5 +142,6 @@ As you can see, this makes spinning up resources using SaltStack very easy, and 
 ## References
 
 The salt-cloud documentation was crucial to putting together this article:
- * [Install Salt Cloud](https://salt-cloud.readthedocs.org/en/latest/topics/install/index.html#using-easy-install-to-install-salt-cloud)
- * [Getting Started With Rackspace](https://salt-cloud.readthedocs.org/en/latest/topics/rackspace.html)
+
+* [Install Salt Cloud](https://salt-cloud.readthedocs.org/en/latest/topics/install/index.html#using-easy-install-to-install-salt-cloud)
+* [Getting Started With Rackspace](https://salt-cloud.readthedocs.org/en/latest/topics/rackspace.html)

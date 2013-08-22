@@ -1,5 +1,4 @@
 Title: Deploying to Rackspace using salt-cloud
-Status: draft
 Tags: rackspace, salt, salt-cloud, configuration management
 Category: Rackspace
 Slug: deploying-to-rackspace-using-salt-cloud

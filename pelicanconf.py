@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-PLUGINS = ['pelican.plugins.gravatar',]
-
 AUTHOR = u'Justin Phelps'
 SITENAME = u"Linuturk's Natter"
 SITEURL = 'http://www.onitato.com'

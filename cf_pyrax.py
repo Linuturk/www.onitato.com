@@ -8,6 +8,8 @@ region = ""
 folder = ""
 container = ""
 
+# Set the identity class
+pyrax.set_setting("identity_type", "rackspace")
 # Set the default region
 pyrax.set_default_region(region)
 # Set the default encoding

@@ -1,11 +1,27 @@
 #!/usr/bin/python
 import pyrax
+import argparse
+
+
+# Parse arguments
+parser = argparse.ArgumentParser()
+parser.add_argument('container', type=str)
+parser.add_argument('folder', type=str)
+parser.add_argument('region', type=str)
+parser.add_argument('credentials', type=str)
+args = parser.parse_args()
+
+# Settings
+container = args.container
+folder = args.folder
+region = args.region
+credentials = args.credentials
 
 # Authentication
 pyrax.encoding = "utf-8"
 pyrax.set_setting("identity_type", "rackspace")
-pyrax.set_setting("region", "ORD")
-pyrax.set_credential_file(".pyrax_creds")
+pyrax.set_setting("region", region)
+pyrax.set_credential_file(credentials)
 
 # Initiate the Cloud Files connection
 cf_ord = pyrax.cloudfiles

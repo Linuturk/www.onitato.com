@@ -1,21 +1,12 @@
 #!/usr/bin/python
 import pyrax
 
-# Set variables for the various options
-username = ""
-apikey = ""
-region = ""
-folder = ""
-container = ""
-
-# Set the identity class
-pyrax.set_setting("identity_type", "rackspace")
-# Set the default region
-pyrax.set_default_region(region)
-# Set the default encoding
+# Authentication
 pyrax.encoding = "utf-8"
-# Set my credentials
-pyrax.set_credentials(username, apikey)
+pyrax.set_setting("identity_type", "rackspace")
+pyrax.set_setting("region", "ORD")
+pyrax.set_credential_file(".pyrax_creds")
+
 # Initiate the Cloud Files connection
 cf_ord = pyrax.cloudfiles
 

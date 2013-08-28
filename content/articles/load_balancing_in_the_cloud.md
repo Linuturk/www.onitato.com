@@ -1,6 +1,6 @@
 Title: Load Balancing in the Cloud
 Tags: rackspace, cloud, load balancing, load balancer
-Category: rackspace
+Category: Rackspace
 Slug: load-balancing-in-the-cloud
 Author: Justin Phelps
 Summary: Load balancing is performed by a device or service acting as a single endpoint to your application or site. This device then spreads the requests it receives across multiple backend nodes. There are benefits to using a load balancer in your configuration.

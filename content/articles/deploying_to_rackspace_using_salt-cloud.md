@@ -63,9 +63,9 @@ Here you define the different server profiles. These will determine options such
 
 ```yaml
 openstack_512:
-    provider: my-rackspace-config
-    size: 512MB Standard Instance
-    image: Debian 7 (Wheezy)
+  provider: my-rackspace-config
+  size: 512MB Standard Instance
+  image: Debian 7 (Wheezy)
 ```
 
 To see a listing of available sizes and instances, run the following commands. Make sure your provider file is in place, or this won't work.

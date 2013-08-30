@@ -9,7 +9,7 @@ These instructions should be a nice and easy start to deploying Rackspace Cloud 
 
 ## Dependencies
 
-I'm performing my installation on a Debian 7 (Wheezy) server, where my salt-master already exists. The following two commands should install salt-cloud, and all the necessary dependencies. This assumes you are already using the Python tool pip. 
+I'm performing my installation on a Debian 7 (Wheezy) server, where my salt-master already exists. The following two commands should install salt-cloud, and all the necessary dependencies. This assumes you are already using the Python tool pip.
 
 ```bash
 apt-get install sshpass

@@ -7,7 +7,7 @@ SITEURL = 'http://www.onitato.com'
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE = 'fs'
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll

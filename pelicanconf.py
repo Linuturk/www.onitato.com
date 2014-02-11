@@ -30,7 +30,7 @@ STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico',
 
 # Define the location of the STATIC_PATHS above if it differs.
 EXTRA_PATH_METADATA = {
-        'extra/robots.txt': {'path': 'robots.txt'}
+        'extra/robots.txt': {'path': 'robots.txt'},
         'extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt': {'path': 'loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt'),
         'extra/favicon.ico': {'path': 'favicon.ico'}
         }

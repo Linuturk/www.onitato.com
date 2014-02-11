@@ -24,12 +24,16 @@ SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
           ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
 # static paths will be copied under the same name
-STATIC_PATHS = ['images', ]
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico',
+        'extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt',
+        ]
 
-# A list of files to copy from the source to the destination
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
-                 ('extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt', 'loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt'),
-                 ('extra/favicon.ico', 'favicon.ico'),)
+# Define the location of the STATIC_PATHS above if it differs.
+EXTRA_PATH_METADATA = {
+        'extra/robots.txt': {'path': 'robots.txt'}
+        'extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt': {'path': 'loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt'),
+        'extra/favicon.ico': {'path': 'favicon.ico'}
+        }
 
 # Enable pages on the menu
 DISPLAY_PAGES_ON_MENU = True

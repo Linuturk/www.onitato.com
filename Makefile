@@ -18,6 +18,8 @@ SSH_TARGET_DIR=/var/www
 
 DROPBOX_DIR=~/Dropbox/Public/
 
+mkdir -p $(OUTPUTDIR)
+
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '

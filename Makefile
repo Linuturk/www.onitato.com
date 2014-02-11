@@ -18,8 +18,6 @@ SSH_TARGET_DIR=/var/www
 
 DROPBOX_DIR=~/Dropbox/Public/
 
-mkdir -p $(OUTPUTDIR)
-
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
@@ -39,6 +37,7 @@ help:
 
 
 html: clean $(OUTPUTDIR)/index.html
+	mkdir -p $(OUTPUTDIR)
 	@echo 'Done'
 
 $(OUTPUTDIR)/%.html:

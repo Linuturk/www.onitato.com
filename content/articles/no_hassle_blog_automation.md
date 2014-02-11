@@ -91,7 +91,7 @@ Configure a new job as a **free-style software project**. Let's update the follo
 ```
 
 ```
-/usr/bin/python /var/lib/jenkins/.scripts/cf_pyrax.py
+/usr/bin/python ${WORKSPACE}/cf_pyrax.py container_name ${WORKSPACE}/output REGION path_to_creds
 ```
 
 Put these in separate build steps. Be sure to save your settings.
@@ -117,11 +117,22 @@ Github will be the central repository for our blog's code. It will also be the l
 
 Installation instructions for the pyrax modules can be found [here](http://docs.rackspace.com/sdks/guide/content/python.html). We are relying on pip again for this installation. This should be installed on the remote server.
 
-**Note:** Be sure to install the **keyring** module before installing the pyrax module. The pyrax installation will fail unless you install keyring first.
-
 I've written a script to automatically empty a Cloud Files container and upload the static content Pelican generates with the **make html** command. The source for this script can be found on [my Github](https://github.com/Linuturk/www.onitato.com/blob/master/cf_pyrax.py).
 
-Modify this script with your specific information, and place it on your remote server in the **/var/lib/jenkins/.scripts/cf_pyrax.py** directory. Make sure the permissions and ownership of this folder and file allow the Jenkins service access. You will notice this matches the Build step we added earlier in the Jenkins section.
+This script takes a series of arguments via argparse. Here is the usage of this tool explained. Feel free to reference the Build step we added to Jenkins earlier for an example.
+
+```
+usage: cf_pyrax.py [-h] container folder region credentials
+
+positional arguments:
+  container
+  folder
+  region
+  credentials
+
+optional arguments:
+  -h, --help   show this help message and exit
+```
 
 ### Rackspace Cloud Files
 

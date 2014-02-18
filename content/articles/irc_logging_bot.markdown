@@ -1,4 +1,5 @@
 Title: IRC Logging Bot
+Date: 2014-2-11 0:00
 Tags: irc, pierc, python, logging
 Category: tutorial
 Slug: irc-logging-bot

@@ -1,4 +1,5 @@
 Title: Load Balancing in the Cloud
+Date: 2014-2-11 0:00
 Tags: rackspace, cloud, load balancing, load balancer
 Category: Rackspace
 Slug: load-balancing-in-the-cloud

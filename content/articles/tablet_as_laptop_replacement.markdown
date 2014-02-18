@@ -1,4 +1,5 @@
 Title: Using a Tablet as a Laptop Replacement
+Date: 2014-2-11 0:00
 Tags: tablet, android, laptop, development, thinkpad
 Category: personal
 Slug: tablet-as-laptop-replacement

@@ -7,11 +7,9 @@ Slug: ansible-rackspace-dynamic-invetory
 Author: Justin Phelps
 Summary: The Rackspace dynamic inventory plugin is a powerful tool, but the use of this plugin isn't well documented. Here's a quick tutorial on how to get started with this plugin.
 
-#What is this for and why should I use it?
-
 #How do I install it?
 
-Installing inventory plugins isn't intuitive, and the documentation available on this process isn't immediatly clear. The instructions can be found on this page in the [Ansible Documentation](http://docs.ansible.com/intro_dynamic_inventory.html).
+Installing inventory plugins isn't intuitive, and the documentation available on this process isn't immediatly clear. The instructions found on this page [Ansible Documentation](http://docs.ansible.com/intro_dynamic_inventory.html) can be adapted for the Rackspace plugin.
 
 It boils down to this for the Rackspace plugin:
 
@@ -26,4 +24,4 @@ api_key = 01234567890abcdef
 ```
 1. Target the rax.py script in your ansible run: **ansible -i /etc/ansible/rax.py webserver -m ping**
 
-#Do you have an example use case?
+Now your inventory is dynamic using Rackspace!

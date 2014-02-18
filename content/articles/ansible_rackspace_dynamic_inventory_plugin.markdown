@@ -1,6 +1,5 @@
 Title: Ansible's Rackspace Dynamic Inventory Plugin
 Date: 2014-2-18 0:00
-Status: draft
 Tags: rackspace, ansible, inventory, plugin
 Category: Rackspace
 Slug: ansible-rackspace-dynamic-inventory

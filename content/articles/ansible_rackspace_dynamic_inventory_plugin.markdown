@@ -3,13 +3,13 @@ Date: 2014-2-18 0:00
 Status: draft
 Tags: rackspace, ansible, inventory, plugin
 Category: Rackspace
-Slug: ansible-rackspace-dynamic-invetory
+Slug: ansible-rackspace-dynamic-inventory
 Author: Justin Phelps
 Summary: The Rackspace dynamic inventory plugin is a powerful tool, but the use of this plugin isn't well documented. Here's a quick tutorial on how to get started with this plugin.
 
 #How do I install it?
 
-Installing inventory plugins isn't intuitive, and the documentation available on this process isn't immediatly clear. The instructions found on this page [Ansible Documentation](http://docs.ansible.com/intro_dynamic_inventory.html) can be adapted for the Rackspace plugin.
+Installing inventory plugins isn't intuitive, and the documentation available on this process isn't immediately clear. The instructions found on this page [Ansible Documentation](http://docs.ansible.com/intro_dynamic_inventory.html) can be adapted for the Rackspace plugin.
 
 It boils down to this for the Rackspace plugin:
 

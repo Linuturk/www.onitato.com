@@ -21,6 +21,7 @@ It boils down to this for the Rackspace plugin:
 username = my_username
 api_key = 01234567890abcdef
 ```
-1. Target the rax.py script in your ansible run: **ansible -i /etc/ansible/rax.py webserver -m ping**
+
+Target the rax.py script in your ansible run: **ansible -i /etc/ansible/rax.py webserver -m ping**
 
 Now your inventory is dynamic using Rackspace!

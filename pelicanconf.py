@@ -42,5 +42,7 @@ DISPLAY_PAGES_ON_MENU = True
 PAGE_DIR = ('pages')
 ARTICLE_EXCLUDES = (('pages',))
 
+# External Services
 GOOGLE_ANALYTICS = "UA-34793085-1"
 TWITTER_USERNAME = "Linuturk"
+DISQUS_SITENAME = "linuturksnatter"

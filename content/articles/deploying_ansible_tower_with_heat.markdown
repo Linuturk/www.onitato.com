@@ -120,7 +120,7 @@ Resources are the actual compute, database, and load balancer resources required
 Some useful things to know about the user_data section:
 
 * All commands run in /root
-* The result of these commands are typically logged in /root/
+* The result of these commands are typically logged in /root/cfn-userdata.log
 * Commands like cd will actually change your working directory.
 * Anything that exits non-zero will cause the deployment to fail.
 
@@ -179,3 +179,7 @@ outputs:
     value: { get_attr: [ ansible_tower, privateIPv4 ] }
     description: The private IP address of the server
 ```
+
+# Ansible Tower
+
+Ansible Tower is a solid graphical interface that gives you visibility into your Ansible jobs and a REST API. You currently get access to this with 10 nodes, for free. See [Ansbile's Site](http://www.ansible.com/tower) for more information and pricing.

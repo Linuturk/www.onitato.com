@@ -11,7 +11,7 @@ Deploying Ansible Tower isn't hard, but automating a server build and triggering
 
 #Anatomy of a HEAT Template
 
-Templates are broken into several main sections. I'm going to describe each one of them so you fully understand the process.
+Templates are broken into several main sections. I'm going to describe each one of them so you fully understand the process. Follow along here: [Ansible Tower HEAT Template](https://github.com/Linuturk/heat-templates/blob/master/ansible-tower.template)
 
 ##Description and Version
 
@@ -180,6 +180,8 @@ outputs:
     description: The private IP address of the server
 ```
 
-# Ansible Tower
+#
 
-Ansible Tower is a solid graphical interface that gives you visibility into your Ansible jobs and a REST API. You currently get access to this with 10 nodes, for free. See [Ansbile's Site](http://www.ansible.com/tower) for more information and pricing.
+#Ansible Tower
+
+Ansible Tower is a solid graphical interface that gives you visibility into your Ansible jobs and a REST API. You currently get access to this with 10 nodes, for free. See [Ansible's Site](http://www.ansible.com/tower) for more information and pricing.

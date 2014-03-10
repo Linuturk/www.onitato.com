@@ -28,7 +28,7 @@ description: |
 
 Parameters are inputs that make the template more flexible. They allow you to define dynamic portions of the configuration without having separate templates for different server sizes.
 
-The paramters I define for the template are:
+The parameters I define for the template are:
 
 * Server Flavor (size)
 * Server Name

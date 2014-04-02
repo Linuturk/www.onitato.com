@@ -10,7 +10,7 @@ Deploying Ansible Tower isn't hard, but automating a server build and triggering
 
 #Anatomy of a HEAT Template
 
-Templates are broken into several main sections. I'm going to describe each one of them so you fully understand the process. Follow along here: [Ansible Tower HEAT Template](https://github.com/Linuturk/heat-templates/blob/master/ansible-tower.template)
+Templates are broken into several main sections. I'm going to describe each one of them so you fully understand the process. Follow along here: [Ansible Tower HEAT Template](https://github.com/rackspace-orchestration-templates/ansible-tower/blob/master/ansible-tower.yaml)
 
 ##Description and Version
 

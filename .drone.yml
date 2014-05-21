@@ -9,4 +9,5 @@ publish:
     region: ORD
     container: test.onitato.com
     source: $DRONE_BUILD_DIR/output
+    target: ""
     branch: master

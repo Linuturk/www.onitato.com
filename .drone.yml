@@ -3,3 +3,13 @@ script:
   - apt-get update
   - apt-get dist-upgrade -y
   - pip install pelican
+publish:
+  swift:
+    username: {{ rax_username }}
+    password: {{ rax_apikey }}
+    auth_url: https://identity.api.rackspacecloud.com/v2.0
+    region: ORD
+    container: test.onitato.com
+    source: /tmp/output
+    target: /
+    branch: master

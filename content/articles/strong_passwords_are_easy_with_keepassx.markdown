@@ -32,7 +32,7 @@ As you can see, strong passwords are important. Type in your favorite password, 
 
 ## What if I lose my database?
 
-You are using Dropbox to backup your important files, aren't you? Place your password database in [Dropbox](|filename|/articles/keeping_your_files_safe_with_dropbox.md), and you'll never lose it again. Now you only have two passwords to remember. Your Dropbox password, and your KeePassX password.
+You are using Dropbox to backup your important files, aren't you? Place your password database in [Dropbox](|filename|/articles/keeping_your_files_safe_with_dropbox.markdown), and you'll never lose it again. Now you only have two passwords to remember. Your Dropbox password, and your KeePassX password.
 
 ## What if I am away from my computer?
 

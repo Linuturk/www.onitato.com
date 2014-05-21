@@ -1,8 +1,6 @@
 image: linuturk/ubuntu-pelican
 script:
-  - apt-get update
-  - apt-get dist-upgrade -y
-  - pip install pelican
+  - make -C $DRONE_BUILD_DIR html
 publish:
   swift:
     username: {{ rax_username }}

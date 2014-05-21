@@ -8,6 +8,6 @@ publish:
     auth_url: https://identity.api.rackspacecloud.com/v2.0
     region: ORD
     container: test.onitato.com
-    source: /tmp/output
+    source: $DRONE_BUILD_DIR/output/*
     target: /
     branch: master

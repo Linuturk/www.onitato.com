@@ -1,0 +1,5 @@
+image: bradrydzewski/python:2.7
+script:
+  - apt-get update
+  - apt-get dist-upgrade -y
+  - pip install pelican

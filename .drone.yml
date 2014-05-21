@@ -10,3 +10,4 @@ publish:
     container: test.onitato.com
     source: $DRONE_BUILD_DIR/output
     branch: master
+

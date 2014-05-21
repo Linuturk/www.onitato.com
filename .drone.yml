@@ -1,4 +1,4 @@
-image: bradrydzewski/python:2.7
+image: linuturk/ubuntu-pelican
 script:
   - apt-get update
   - apt-get dist-upgrade -y

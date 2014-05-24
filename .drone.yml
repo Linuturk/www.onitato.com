@@ -7,6 +7,6 @@ publish:
     password: {{rax_apikey}}
     auth_url: https://identity.api.rackspacecloud.com/v2.0
     region: ORD
-    container: test.onitato.com
+    container: www.onitato.com
     source: $DRONE_BUILD_DIR/output
     branch: master

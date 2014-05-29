@@ -9,17 +9,28 @@ Summary: Due to the difficulty in maintaining a full Jenkins instance, I have re
 
 Due to the difficulty in maintaining a full Jenkins instance, I have revisited the blog automation issue and have replaced Jenkins with Drone. Making use of a tool like Drone greatly simplifies the setup process and lowers the barrier of entry for this type of project.
 
+## Requirements
+
+There are a few requirements for this setup:
+
+* Rackspace Cloud Account
+* Existing Pelican Blog
+* Github Account
+* Linux Administration Knowledge
+
+You should also read my [original article](|filename|/articles/no_hassle_blog_automation.markdown).
+
 ## Drone
 
 There are two options here for using Drone.
 
-### Drone.io
+#### Drone.io
 
 Register a free account at [Drone.io](https://drone.io/).
 
 Using Drone.io's free service has some disadvantages. You can't specify custom docker images for your testing. There also isn't a direct method to publish your blog output to Rackspace Cloud Files. I recommend you make use of the second option and run your own instance.
 
-### Open Source Drone
+#### Open Source Drone
 
 Run your own Drone instance using my [Ansible Drone Role](https://github.com/rack-roles/drone). Some key points of this setup include:
 
@@ -59,6 +70,8 @@ There are three main sections to this file:
 * **image**: This defines the Docker image to use for the build.
 * **script**: This defines the commands to run for the build process.
 * **publish**: This is set to publish the contents of the output directory to Rackspace Cloud Files.
+
+The only options you should have to change for your deployment are *region* and *container*.
 
 ## Setup
 

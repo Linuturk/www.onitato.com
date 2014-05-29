@@ -1,5 +1,4 @@
 Title: No Hassle Blog Automation Redux
-Status: draft
 Tags: drone, pelican, jenkins, blog, automation
 Category: tutorial
 Slug: no-hassle-blog-automation-redux

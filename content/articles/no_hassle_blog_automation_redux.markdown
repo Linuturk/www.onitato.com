@@ -41,7 +41,7 @@ Documentation and install instructions are available on [Drone's Github Page](ht
 
 ## Docker
 
-I maintain a Trusted Build in the Docker Registry for Pelican. The image name is [linuturk/ubuntu-pelican](https://index.docker.io/u/linuturk/ubuntu-pelican/). We will be using this image to simplify our .drone.yml.
+I maintain a Trusted Build in the Docker Registry for Pelican. The image name is [linuturk/pelican](https://index.docker.io/u/linuturk/pelican/). We will be using this image to simplify our .drone.yml.
 
 Remember, if you are using the free account provided by Drone.io, you won't be able to use this image.
 
@@ -50,7 +50,7 @@ Remember, if you are using the free account provided by Drone.io, you won't be a
 This file is used by the open source Drone.io to define the build process. You can find my current .drone.yml file [in my repository.](https://github.com/Linuturk/www.onitato.com/blob/master/.drone.yml)
 
 ```yaml
-image: linuturk/ubuntu-pelican
+image: linuturk/pelican
 script:
   - make -C $DRONE_BUILD_DIR html
 publish:

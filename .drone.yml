@@ -1,4 +1,4 @@
-image: linuturk/ubuntu-pelican
+image: linuturk/pelican
 script:
   - make -C $DRONE_BUILD_DIR html
 publish:

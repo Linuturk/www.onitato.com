@@ -1,6 +1,5 @@
 image: linuturk/pelican
 script:
-  - whoami
   - make -C $DRONE_BUILD_DIR html
 publish:
   swift:

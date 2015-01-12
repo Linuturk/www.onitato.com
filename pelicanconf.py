@@ -39,7 +39,7 @@ EXTRA_PATH_METADATA = {
 DISPLAY_PAGES_ON_MENU = True
 
 # Page settings
-PAGE_DIR = ('pages')
+PAGE_PATHS = ['pages']
 ARTICLE_EXCLUDES = (('pages',))
 
 # External Services

@@ -1,7 +1,5 @@
 dependencies:
   override:
-    - virtualenv pelican
-    - source pelican/bin/activate
     - pip install pelican Markdown
 test:
   override:

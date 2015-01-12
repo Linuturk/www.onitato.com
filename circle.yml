@@ -4,3 +4,9 @@ dependencies:
 test:
   override:
     - make html
+deployment:
+  production:
+    branch: master
+    commands:
+      - pip install turbolift
+      - turbolift -u $RAXUSER -a $RAXAPIKEY --os-rax-auth $RAXREGION upload -s $HOME/$CIRCLE_PROJECT_REPONAME/output -c $CONTAINER

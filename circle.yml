@@ -1,0 +1,6 @@
+dependencies:
+  override:
+    - pip install pelican Markdown
+test:
+  override:
+    - make html

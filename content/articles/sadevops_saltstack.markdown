@@ -1,5 +1,4 @@
 Title: SA DevOps - SaltStack
-Status: draft
 Tags: sadevops, saltstack, talks
 Category: talks
 Slug: sadevops-saltstack

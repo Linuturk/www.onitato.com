@@ -1,5 +1,4 @@
 Title: SA Devops - CI/CD with Drone and Docker
-Status: draft
 Tags: sadevops, drone, docker, talks
 Category: talks
 Slug: sadevops-cicd-drone-docker

@@ -24,7 +24,7 @@ SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
           ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
 # static paths will be copied under the same name
-STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico',
+STATIC_PATHS = ['images', 'slides', 'extra/robots.txt', 'extra/favicon.ico',
         'extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt',
         ]
 

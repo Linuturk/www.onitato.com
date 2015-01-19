@@ -8,7 +8,7 @@ Summary: The Battle for Wesnoth is a turn based strategy game that has unique an
 
 [The Battle for Wesnoth](http://www.wesnoth.org/) is a turn based strategy game that has unique and fun campaigns and great multiplayer maps. Playing on the official server is fun, but sometimes you'll want a private server on which you and your close friends can play.
 
-<center>![The Battle for Wesnoth](/static/images/wesnoth_logo.jpg "The Battle for Wesnoth)</center>
+<center>![The Battle for Wesnoth]({filename}/images/wesnoth_logo.jpg)</center>
 
 ## Installing the Server Software
 

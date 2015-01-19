@@ -8,7 +8,7 @@ Summary: Strong passwords are important, today more than ever. Clever passwords 
 
 Strong passwords are important, today more than ever. Clever passwords like "Password123", ["hunter2"](http://www.bash.org/?244321), and [just the letter "a"](http://www.thewebsiteisdown.com/) just won't cut it anymore. How can someone create strong passwords, use a different one for every account they have, and still remember them all? [KeePassX](http://www.keepassx.org/) is the answer.
 
-<center>![KeePassX](/static/images/keepassx_logo.png "KeePassX")</center>
+<center>![KeePassX]({filename}/images/keepassx_logo.png)</center>
 
 ## What is KeePassX?
 

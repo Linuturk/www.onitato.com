@@ -8,7 +8,7 @@ Summary: I ran into an interesting problem today when installing the newly relea
 
 I ran into an interesting problem today when installing the newly released [Fedora 18](https://fedoraproject.org/). It was quite annoying, so I wanted to document it here.
 
-<center>![Fedora 18](/static/images/f18_screenshot.png "Fedora 18")</center>
+<center>![Fedora 18]({filename}/images/f18_screenshot.png)</center>
 
 Using the new installer, I configured my computer's host name to **subdomain.domain.com** on the network setup page. After I finished the installation, I noticed my host name was still the default **localhost.localdomain**. I tried the usual tricks to set the host name, but all the following tactics failed:
 

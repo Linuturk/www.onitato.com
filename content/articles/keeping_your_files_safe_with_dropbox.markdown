@@ -8,7 +8,7 @@ Summary: Everyone has a collection of documents and pictures that are important 
 
 Everyone has a collection of documents and pictures that are important to them. Don't make the mistake of not backing up these files.
 
-<center>![Dropbox](/static/images/dropbox_logo.png "Dropbox")</center>
+<center>![Dropbox Logo]({filename}/images/dropbox_logo.png)</center>
 
 I keep all of my music, pictures, and important files in Dropbox. You receive 2 GB of storage free (plus a small bump of free space if you use my [referral link](http://db.tt/Vwz5aVD).) Once you install Dropbox and choose your folder location, make sure you put all of your important files in the Dropbox Folder.
 

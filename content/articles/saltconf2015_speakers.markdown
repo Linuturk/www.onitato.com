@@ -1,5 +1,4 @@
 Title: Speaking at SaltConf 2015
-Status: draft
 Tags: saltstack, saltconf2015, talks
 Category: talks
 Slug: speaking-at-saltconf-2015

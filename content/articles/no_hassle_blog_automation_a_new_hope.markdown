@@ -40,6 +40,7 @@ There are two sections to this file:
 * **deployment**: This defines the commands to run if tests pass successfully. In this case, if tests pass on the master branch, it will issue the turbolift command.
 
 You will need to set the following environment variables in the CircleCI Project configuration:
+
  * **RAXUSER** - Rackspace Cloud user name.
  * **RAXAPIKEY** - Rackspace Cloud api key.
  * **RAXREGION** - Cloud Files region where your container is located.

@@ -80,7 +80,7 @@ Here is a high level overview of the setup steps:
 1. Setup a DNS record for your domain to point to the CDN URL provided by Cloud Files.
 1. Install and configure an instance of the open source Drone project.
 1. Register your Drone instance with Github. Here's a [quick guide](http://drone.readthedocs.org/en/latest/setup.html#github).
-1. Use the Drone web interface to add your repository to Drone. This process also automatically creates the necessary webhooks in Github.
+1. Use the Drone web interface to add your repository to Drone. This process also automatically creates the necessary web hooks in Github.
 1. Configure the necessary [Parameters](https://github.com/drone/drone#params-injection) for the swift publish option.
 1. Add the .drone.yml file to your repository. Commit and push this change, and Github will notify Drone to process a build.
 1. Review the build in the Drone web interface to ensure it was published successfully.

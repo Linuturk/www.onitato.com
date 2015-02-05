@@ -4,13 +4,13 @@ Tags: rackspace, cloud, load balancing, load balancer
 Category: Rackspace
 Slug: load-balancing-in-the-cloud
 Author: Justin Phelps
-Summary: Load balancing is performed by a device or service acting as a single endpoint to your application or site. This device then spreads the requests it receives across multiple backend nodes. There are benefits to using a load balancer in your configuration.
+Summary: Load balancing is performed by a device or service acting as a single endpoint to your application or site. This device then spreads the requests it receives across multiple back end nodes. There are benefits to using a load balancer in your configuration.
 
 *This article is in response to a [request](https://github.com/Linuturk/www.onitato.com/issues/2) by Shawn Laasch and Jordan Rinke. [Request](https://github.com/Linuturk/www.onitato.com/issues) your topic today! This article will focus on [Rackspace Cloud Load Balancers](http://www.rackspace.com/cloud/load-balancing/).*
 
 ## Cloud Load Balancers
 
-Load balancing is performed by a device or service acting as a single endpoint to your application or site. This device then spreads the requests it receives across multiple backend nodes. There are benefits to using a load balancer in your configuration:
+Load balancing is performed by a device or service acting as a single endpoint to your application or site. This device then spreads the requests it receives across multiple back end nodes. There are benefits to using a load balancer in your configuration:
 
  * Easily add and remove servers from your configuration without DNS updates.
  * Automatically remove failed nodes from your configuration with Health Monitoring.
@@ -25,7 +25,7 @@ There are other methods of load balancing that don't involve Cloud Load Balancer
 
 ### HAProxy
 
-[HAProxy](http://haproxy.1wt.eu/) is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for web sites crawling under very high loads while needing persistence or Layer7 processing. Supporting tens of thousands of connections is clearly realistic with todays hardware.
+[HAProxy](http://haproxy.1wt.eu/) is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for web sites crawling under very high loads while needing persistence or Layer7 processing. Supporting tens of thousands of connections is clearly realistic with today's hardware.
 
 ### nginx
 

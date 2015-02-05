@@ -36,7 +36,7 @@ deployment:
 
 There are two sections to this file:
 
-* **test**: This defines the commands to run to test your code. In this instance, we are simply running the make htmml command provided by Pelican.
+* **test**: This defines the commands to run to test your code. In this instance, we are simply running the make html command provided by Pelican.
 * **deployment**: This defines the commands to run if tests pass successfully. In this case, if tests pass on the master branch, it will issue the turbolift command.
 
 You will need to set the following environment variables in the CircleCI Project configuration:

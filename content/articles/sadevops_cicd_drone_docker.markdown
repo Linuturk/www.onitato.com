@@ -1,4 +1,4 @@
-Title: SA Devops - CI/CD with Drone and Docker
+Title: SA DevOps - CI/CD with Drone and Docker
 Tags: sadevops, drone, docker, talks
 Category: talks
 Slug: sadevops-cicd-drone-docker

@@ -14,7 +14,7 @@ I have now updated this script to use the new **sync_folder_to_container** metho
 pip install --upgrade pyrax
 ```
 
-I identifed this problem in Issue [#4](https://github.com/Linuturk/www.onitato.com/issues/4), and you can find the code changes in the following commits:
+I identified this problem in Issue [#4](https://github.com/Linuturk/www.onitato.com/issues/4), and you can find the code changes in the following commits:
 
  * [05dfa58](https://github.com/Linuturk/www.onitato.com/commit/05dfa581c16b82a7d6cf2dccb0646d1927d3786a)
  * [06f0a10](https://github.com/Linuturk/www.onitato.com/commit/06f0a101e438a06698e3c9bfeead8791fdc75724)

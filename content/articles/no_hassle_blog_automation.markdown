@@ -58,7 +58,7 @@ Once you have this installed on your local workstation, you need to generate the
 
 Jenkins will need to be installed on the remote server only. Installation instructions for Jenkins can be found [here](http://jenkins-ci.org/). Check the right side of the page for your operating system. I chose CentOS 6.3 for my Jenkins server.
 
-After installtion, be sure your service starts on boot and your firewall configuration has port 8080 open.
+After installation, be sure your service starts on boot and your firewall configuration has port 8080 open.
 
 #### Security
 
@@ -69,22 +69,22 @@ I highly recommend enabling Security for your Jenkins instance. There is an [exi
 Go ahead and update the existing plugins on your system. In addition, install these additional plugins:
 
  * Jenkins GIT plugin
- * GitHub API Plugin
- * GitHub plugin
+ * Github API Plugin
+ * Github plugin
  * Github Authentication plugin
 
-Restart Jenkins after these install succesfully.
+Restart Jenkins after these install successfully.
 
 #### Configuring a New Job
 
 Configure a new job as a **free-style software project**. Let's update the following options on the configuration page:
 
  * **Discard Old Builds** - Choose your retention history.
- * **GitHub project** - Full link to the Github repository we create later.
+ * **Github project** - Full link to the Github repository we create later.
  * **Source Code Management** - Git.
  * **Repository URL** - Specify the URL of this remote repository. This uses the same syntax as your git clone command.
  * **Branches to build** - I specified master in my configuration.
- * **Build Triggers** - Build when a change is pushed to GitHub.
+ * **Build Triggers** - Build when a change is pushed to Github.
  * **Build** - Add an Execute shell build step for the following commands:
 ```
 /usr/bin/make html
@@ -98,7 +98,7 @@ Put these in separate build steps. Be sure to save your settings.
 
 #### Locate your hook URL
 
-Login to Jenkins, and browse to **Manage Jenkins > Configure System**. Look for **GitHub Web Hook** towards the bottom of the page, and expand the help option on the right. This should provide you with a hook URL we'll use later. It should look similar to the following:
+Login to Jenkins, and browse to **Manage Jenkins > Configure System**. Look for **Github Web Hook** towards the bottom of the page, and expand the help option on the right. This should provide you with a hook URL we'll use later. It should look similar to the following:
 
 > http://servername:8080/github-webhook/
 
@@ -110,8 +110,8 @@ Github will be the central repository for our blog's code. It will also be the l
 
 1. Create a public repository for your code. Use whatever name you want. I suggest you allow Github to create the README.md file for you automatically.
 1. Clone this repository to your local machine.
-1. As discussed in the Pelican section, use **pelican-quickstart** to setup the necessary files on your local workstation. Feel free to push your changes to your repository. **Caution:** Make sure nothing in your code contains sensative information. Once added to a git repository, it is available forever, even if you delete the local copy.
-1. Edit the settings for your repository, and choose ** Service Hooks**. Locate **Jenkins GitHub Plugin** in the list, and enter your Jenkins Hook URL. Don't forget to activate the hook and Update settings.
+1. As discussed in the Pelican section, use **pelican-quickstart** to setup the necessary files on your local workstation. Feel free to push your changes to your repository. **Caution:** Make sure nothing in your code contains sensitive information. Once added to a git repository, it is available forever, even if you delete the local copy.
+1. Edit the settings for your repository, and choose ** Service Hooks**. Locate **Jenkins Github Plugin** in the list, and enter your Jenkins Hook URL. Don't forget to activate the hook and Update settings.
 
 ### pyrax
 
@@ -141,12 +141,12 @@ If you don't have a Rackspace Cloud Account, you will need to [sign up](https://
 Once you have the account, make note of your username and apikey. Once you have access to your control panel, create a Cloud Files container, and publish it to the CDN. You will need to set a relatively low TTL for your container after publishing it to the CDN. Make sure you have the following information to add to your pyrax script:
 
  * Username
- * ApiKey
+ * Apikey
  * Region
  * Container Name
  * Folder on your Jenkins server where Pelican outputs your static files.
 
-**Caution:** Do not add this to your git repository with this sensative information in the script. Your ApiKey should be protected at all costs.
+**Caution:** Do not add this to your git repository with this sensitive information in the script. Your Apikey should be protected at all costs.
 
 ## Putting it all Together
 
@@ -157,11 +157,11 @@ Now that all the pieces are in place, let's make the necessary updates to our DN
  * CNAME record for **www.domain.com** pointing to the CDN URL provided by Cloud Files.
  * URL Redirect for **domain.com** pointing to **www.domain.com**.
 
-**Note:** If your DNS provider doesn't support URL Redirects natively, you should point to a web server with the necessary redirect in place.
+**Note:** If your DNS provider doesn't support URL Redirects, you should point to a web server with the necessary redirect in place.
 
-### Daily Workflow
+### Daily Work Flow
 
-Now, let's define the workflow for updating your blog:
+Now, let's define the work flow for updating your blog:
 
 1. Create your content in the necessary format and location in your git repository.
 1. Commit this new content or changes to your repository.
@@ -174,4 +174,4 @@ Now, let's define the workflow for updating your blog:
 
 ## Final Notes
 
-Good work! If everything went well, you now have a hassle free, automated blog. I recommend you read through the [Pelican documentation](http://docs.getpelican.com/en/3.1.1/), and play with themes for your blog. Feel free to reference my settings and file struction on [my Github](https://github.com/Linuturk/www.onitato.com).
+Good work! If everything went well, you now have a hassle free, automated blog. I recommend you read through the [Pelican documentation](http://docs.getpelican.com/en/3.1.1/), and play with themes for your blog. Feel free to reference my settings and file structure on [my Github](https://github.com/Linuturk/www.onitato.com).

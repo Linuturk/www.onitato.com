@@ -14,3 +14,7 @@ Materials:
 
  * Salt States in [this Github repository](https://github.com/linuturk/webpagetest).
  * Slides can be found [at this location]({filename}/slides/WebPageTest-SaltConf_2015.pdf).
+
+Here is the recording of my talk:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BWlCoXFdWmU" frameborder="0" allowfullscreen></iframe>

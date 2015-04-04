@@ -17,4 +17,4 @@ Materials:
 
 Here is the recording of my talk:
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/BWlCoXFdWmU" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="452" src="https://www.youtube.com/embed/BWlCoXFdWmU" frameborder="0" allowfullscreen></iframe>

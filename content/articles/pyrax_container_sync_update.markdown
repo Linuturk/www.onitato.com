@@ -22,4 +22,6 @@ I identified this problem in Issue [#4](https://github.com/Linuturk/www.onitato.
 
 There is an [interesting issue](https://github.com/rackspace/pyrax/issues/14) in pyrax where the default encoding doesn't seem to be set if you aren't using a pyrax.cfg. Make sure you leave the default encoding setting, or you will run into this problem as well.
 
-You can download the new [cf_pyrax.py](https://github.com/Linuturk/www.onitato.com/blob/master/cf_pyrax.py) and get started with this more efficient process.
+You can download the new [cf_pyrax.py](https://github.com/Linuturk/www.onitato.com/blob/84d2b873e12a39e505a9ef27e4d55a4fd30cc206/cf_pyrax.py) and get started with this more efficient process.
+
+**Update:** You might want to check out [turbolift](https://github.com/cloudnull/turbolift) for your Cloud Files uploading needs. You can see usage in my [circle.yml](https://github.com/Linuturk/www.onitato.com/blob/master/circle.yml#L8).

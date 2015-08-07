@@ -4,7 +4,6 @@ Category: talks
 Slug: ansible-certified-engineer
 Author: Justin Phelps
 Date: 2015-08-06 13:00
-Status: Draft
 Summary: Today I was a guest on Rackspace Cloud Office Hours talking about my recent Ansible Certified Engineer certification.
 
 <center>![Ansible Logo]({filename}/images/ansible_logo.png)</center>

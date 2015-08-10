@@ -8,7 +8,7 @@ Summary: Today I was a guest on Rackspace Cloud Office Hours talking about my re
 
 <center>![Ansible Logo]({filename}/images/ansible_logo.png)</center>
 
-Today I was a guest on Rackspace Cloud Office Hours talking about my recent Ansible Certified Engineer certification.
+Today I was a guest on Rackspace Cloud Office Hours talking about my recent Ansible Certified Engineer certification. There is a great [article on the Rackspace Blog with a Recap](http://www.rackspace.com/blog/ansible-certified-engineer-justin-phelps-video/).
 
 Here is the recording of the Hangout:
 

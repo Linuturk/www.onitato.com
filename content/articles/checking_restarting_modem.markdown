@@ -17,6 +17,7 @@ curl -m 5 -s $HOST/reset.htm?reset_modem="Restart Cable Modem" &> /dev/null
 ```
 
 I'm using the following arguments:
+
  * **-m** - Sets the max time for the curl command. This is so the script doesn't hang.
  * **-s** - Silences a portion of curl's output.
  * **&> /dev/null** - Redirects all remaining output to /dev/null.

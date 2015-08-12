@@ -16,7 +16,7 @@ LINKS =  (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issue
           ('Donate Bitcoin', 'http://linuturk.tip.me/'))
 
 # Social widget
-SOCIAL = (('google+', 'https://plus.google.com/112828903529889228389/posts'),
+SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
           ('github', 'https://github.com/Linuturk'),
           ('facebook', 'https://www.facebook.com/linuturk'),
           ('twitter', 'https://twitter.com/linuturk'),

@@ -9,6 +9,11 @@ Summary: I will be speaking at Texas Linux Fest this year. My talk will be about
 
 <center>![Consul]({filename}/images/consul_logo.png)</center>
 
-I will be speaking at [Texas Linux Fest](https://2015.texaslinuxfest.org/) this year. My talk will be about [Consul](https://consul.io/), the service discovery tool from [Hashicorp](https://hashicorp.com/).
+I will be speaking at [Texas Linux Fest](https://2015.texaslinuxfest.org/) this year. My talk will be about [Consul](https://consul.io/), the service discovery tool from [Hashicorp](https://hashicorp.com/). I'm scheduled for **Saturday, August 22nd** at **1:30 PM** in **Room 3**.
 
-My talk is on **Saturday, August 22nd** at **1:30 PM** in **Room 3**. Here is the [full schedule](https://2015.texaslinuxfest.org/schedule).
+Talk Materials:
+
+ * [Slides](#)
+ * [Github Repository](#)
+
+Here is the [full schedule](https://2015.texaslinuxfest.org/schedule) for the conference. Looking forward to seeing you there!

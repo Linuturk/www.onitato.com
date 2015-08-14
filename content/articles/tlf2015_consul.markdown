@@ -1,5 +1,4 @@
 Title: Texas Linux Fest 2015
-Status: draft
 Tags: texas, linux, fest, 2015, consul, service discovery
 Category: talks
 Slug: texas-linux-fest-2015-consul

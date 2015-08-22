@@ -13,6 +13,7 @@ I will be speaking at [Texas Linux Fest](https://2015.texaslinuxfest.org/) this 
 Talk Materials:
 
  * [Slides]({filename}/slides/Texas_Linux_Fest_2015_Consul.pdf)
- * [Github Repository](https://github.com/Linuturk/consul-demo)
+ * [Demo Repo](https://github.com/Linuturk/consul-demo)
+ * [SaltStack Repo](https://github.com/Linuturk/saltstates/tree/master/consul)
 
 Here is the [full schedule](https://2015.texaslinuxfest.org/schedule) for the conference. Looking forward to seeing you there!

@@ -8,3 +8,6 @@ Date: 2015-MM-DD 0:00
 Summary:
 
 Article begins here.
+
+Example image:
+<center>![SaltConf 2015]({filename}/images/saltconf2015.png)</center>

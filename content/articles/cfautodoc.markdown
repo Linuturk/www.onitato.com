@@ -1,5 +1,4 @@
 Title: Testing CloudFormation Templates with Ansible
-Status: draft
 Tags: aws, ansible, cloud formation, custom
 Category: Rackspace
 Slug: testing-cloud-formation-templates

@@ -12,7 +12,7 @@ My talk will be in the Audubon room on Wednesday, at 3:45 PM.
 
 Materials:
 
- * Salt States in [this Github repository](https://github.com/linuturk/webpagetest).
+ * Salt States in [this GitHub repository](https://github.com/linuturk/webpagetest).
  * Slides can be found [at this location]({filename}/slides/WebPageTest-SaltConf_2015.pdf).
 
 Here is the recording of my talk:

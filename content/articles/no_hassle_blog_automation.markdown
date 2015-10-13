@@ -26,7 +26,7 @@ Let's take a look at the tools we will need to automate our blog:
  * [git](http://git-scm.com/)
  * [Pelican](http://blog.getpelican.com/)
  * [Jenkins](http://jenkins-ci.org/)
- * [Github](https://github.com/)
+ * [GitHub](https://github.com/)
  * [pyrax](http://docs.rackspace.com/sdks/guide/content/python.html)
  * [Rackspace Cloud Files](http://www.rackspace.com/cloud/files/)
 
@@ -34,7 +34,7 @@ Now I'm going to detail out the setup instructions for each tool.
 
 ### git
 
-We are going to use git to provide a method of version control for our blog posts. In addition, we will be pushing our code to Github.com. A full git tutorial is outside the scope of this post. If you need a crash course in git, checkout this [awesome tutorial](http://try.github.com/).
+We are going to use git to provide a method of version control for our blog posts. In addition, we will be pushing our code to GitHub.com. A full git tutorial is outside the scope of this post. If you need a crash course in git, checkout this [awesome tutorial](http://try.github.com/).
 
 Installing git should be fairly simple. Instructions for various operating systems can be found [here](http://git-scm.com/downloads). Install this on your local workstation and remote server.
 
@@ -48,7 +48,7 @@ easy_install pip
 pip install pelican Markdown
 ```
 
-Once you have this installed on your local workstation, you need to generate the necessary files using **pelican-quickstart**. You will need to run this in the git repository we clone from Github. I highly recommend the [Pelican Quick Start Documentation](http://docs.getpelican.com/en/3.1.1/getting_started.html) to help you with the details of configuring Pelican.
+Once you have this installed on your local workstation, you need to generate the necessary files using **pelican-quickstart**. You will need to run this in the git repository we clone from GitHub. I highly recommend the [Pelican Quick Start Documentation](http://docs.getpelican.com/en/3.1.1/getting_started.html) to help you with the details of configuring Pelican.
 
 **Note:** Do not generate your html on your local workstation. We are going to configure Jenkins to do this for us automatically on the remote server. No need to clutter our git repository with this output.
 
@@ -69,9 +69,9 @@ I highly recommend enabling Security for your Jenkins instance. There is an [exi
 Go ahead and update the existing plugins on your system. In addition, install these additional plugins:
 
  * Jenkins GIT plugin
- * Github API Plugin
- * Github plugin
- * Github Authentication plugin
+ * GitHub API Plugin
+ * GitHub plugin
+ * GitHub Authentication plugin
 
 Restart Jenkins after these install successfully.
 
@@ -80,11 +80,11 @@ Restart Jenkins after these install successfully.
 Configure a new job as a **free-style software project**. Let's update the following options on the configuration page:
 
  * **Discard Old Builds** - Choose your retention history.
- * **Github project** - Full link to the Github repository we create later.
+ * **GitHub project** - Full link to the GitHub repository we create later.
  * **Source Code Management** - Git.
  * **Repository URL** - Specify the URL of this remote repository. This uses the same syntax as your git clone command.
  * **Branches to build** - I specified master in my configuration.
- * **Build Triggers** - Build when a change is pushed to Github.
+ * **Build Triggers** - Build when a change is pushed to GitHub.
  * **Build** - Add an Execute shell build step for the following commands:
 ```
 /usr/bin/make html
@@ -98,26 +98,26 @@ Put these in separate build steps. Be sure to save your settings.
 
 #### Locate your hook URL
 
-Login to Jenkins, and browse to **Manage Jenkins > Configure System**. Look for **Github Web Hook** towards the bottom of the page, and expand the help option on the right. This should provide you with a hook URL we'll use later. It should look similar to the following:
+Login to Jenkins, and browse to **Manage Jenkins > Configure System**. Look for **GitHub Web Hook** towards the bottom of the page, and expand the help option on the right. This should provide you with a hook URL we'll use later. It should look similar to the following:
 
 > http://servername:8080/github-webhook/
 
-This should be all we need to do with Jenkins for now. Let's move on to Github.
+This should be all we need to do with Jenkins for now. Let's move on to GitHub.
 
-### Github
+### GitHub
 
-Github will be the central repository for our blog's code. It will also be the launch point for the rest of our automation.
+GitHub will be the central repository for our blog's code. It will also be the launch point for the rest of our automation.
 
-1. Create a public repository for your code. Use whatever name you want. I suggest you allow Github to create the README.md file for you automatically.
+1. Create a public repository for your code. Use whatever name you want. I suggest you allow GitHub to create the README.md file for you automatically.
 1. Clone this repository to your local machine.
 1. As discussed in the Pelican section, use **pelican-quickstart** to setup the necessary files on your local workstation. Feel free to push your changes to your repository. **Caution:** Make sure nothing in your code contains sensitive information. Once added to a git repository, it is available forever, even if you delete the local copy.
-1. Edit the settings for your repository, and choose ** Service Hooks**. Locate **Jenkins Github Plugin** in the list, and enter your Jenkins Hook URL. Don't forget to activate the hook and Update settings.
+1. Edit the settings for your repository, and choose ** Service Hooks**. Locate **Jenkins GitHub Plugin** in the list, and enter your Jenkins Hook URL. Don't forget to activate the hook and Update settings.
 
 ### pyrax
 
 Installation instructions for the pyrax modules can be found [here](http://docs.rackspace.com/sdks/guide/content/python.html). We are relying on pip again for this installation. This should be installed on the remote server.
 
-I've written a script to automatically empty a Cloud Files container and upload the static content Pelican generates with the **make html** command. The source for this script can be found on [my Github](https://github.com/Linuturk/www.onitato.com/blob/master/cf_pyrax.py).
+I've written a script to automatically empty a Cloud Files container and upload the static content Pelican generates with the **make html** command. The source for this script can be found on [my GitHub](https://github.com/Linuturk/www.onitato.com/blob/master/cf_pyrax.py).
 
 This script takes a series of arguments via argparse. Here is the usage of this tool explained. Feel free to reference the Build step we added to Jenkins earlier for an example.
 
@@ -165,13 +165,13 @@ Now, let's define the work flow for updating your blog:
 
 1. Create your content in the necessary format and location in your git repository.
 1. Commit this new content or changes to your repository.
-1. Push these changes to Github.
-1. Github will notify Jenkins that changes have been made.
-1. Jenkins will pull the latest changes from Github.
+1. Push these changes to GitHub.
+1. GitHub will notify Jenkins that changes have been made.
+1. Jenkins will pull the latest changes from GitHub.
 1. Jenkins will run the necessary Pelican command to generate the static content.
 1. Jenkins will run the cf_pyrax.py script to empty your Cloud Files container, and then upload the latest static content.
 1. Your updates are now live!
 
 ## Final Notes
 
-Good work! If everything went well, you now have a hassle free, automated blog. I recommend you read through the [Pelican documentation](http://docs.getpelican.com/en/3.1.1/), and play with themes for your blog. Feel free to reference my settings and file structure on [my Github](https://github.com/Linuturk/www.onitato.com).
+Good work! If everything went well, you now have a hassle free, automated blog. I recommend you read through the [Pelican documentation](http://docs.getpelican.com/en/3.1.1/), and play with themes for your blog. Feel free to reference my settings and file structure on [my GitHub](https://github.com/Linuturk/www.onitato.com).

@@ -15,7 +15,7 @@ There are a few requirements for this setup:
 * Rackspace Cloud Account
 * Cloud Files Container\*
 * Existing Pelican Blog
-* Github Account
+* GitHub Account
 
 \* This container should be [configured to serve a static site](http://www.rackspace.com/blog/point-and-click-your-way-to-a-cloud-files-static-website-with-the-control-panel/).
 
@@ -66,7 +66,7 @@ Here is a high level overview of the setup steps:
 1. Setup a CNAME record for your domain to point to the CDN URL provided by Cloud Files.
 1. Sign in to CircleCI and link your Pelican blog repository.
 1. Configure the necessary Environment Variables in CircleCI.
-1. Add the circle.yml file to your repository. Commit and push this change, and Github will notify CircleCI to process a build.
+1. Add the circle.yml file to your repository. Commit and push this change, and GitHub will notify CircleCI to process a build.
 1. Review the build in CircleCI to ensure it was published successfully.
 
 That should be all you need to do. Good luck!

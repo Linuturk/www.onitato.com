@@ -21,4 +21,4 @@ It uses the following arguments:
  * **-s** - Silences a portion of curl's output.
  * **&> /dev/null** - Redirects all remaining output to /dev/null.
 
-You can find the script [in this Github repository](https://github.com/Linuturk/modem-restart-script/blob/master/modemCheck.sh). Hope this works for you as well. **Automate all the things!**
+You can find the script [in this GitHub repository](https://github.com/Linuturk/modem-restart-script/blob/master/modemCheck.sh). Hope this works for you as well. **Automate all the things!**

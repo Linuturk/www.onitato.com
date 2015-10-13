@@ -14,7 +14,7 @@ There are a few requirements for this setup:
 
 * Rackspace Cloud Account
 * Existing Pelican Blog
-* Github Account
+* GitHub Account
 * Linux Administration Knowledge
 
 You should also read my [original article](|filename|/articles/no_hassle_blog_automation.markdown).
@@ -37,7 +37,7 @@ Run your own Drone instance using my [Ansible Drone Role](https://github.com/rac
 * The use of parameters {{rax_username}} and {{rax_apikey}}. You define these in your Drone instance settings. This feature allows you to keep secrets secure.
 * Make sure the container you define is published to the CDN, and is enabled to serve as a Web Site. You can now enable this through the Rackspace Cloud Control Panel.
 
-Documentation and install instructions are available on [Drone's Github Page](https://github.com/drone/drone#getting-started). You can follow these instructions if you are unfamiliar with Ansible.
+Documentation and install instructions are available on [Drone's GitHub Page](https://github.com/drone/drone#getting-started). You can follow these instructions if you are unfamiliar with Ansible.
 
 ## Docker
 
@@ -79,10 +79,10 @@ Here is a high level overview of the setup steps:
 1. Create a container in Cloud Files, and make sure you configure the Website Settings and ensure it is published to the CDN.
 1. Setup a DNS record for your domain to point to the CDN URL provided by Cloud Files.
 1. Install and configure an instance of the open source Drone project.
-1. Register your Drone instance with Github. Here's a [quick guide](http://drone.readthedocs.org/en/latest/setup.html#github).
-1. Use the Drone web interface to add your repository to Drone. This process also automatically creates the necessary web hooks in Github.
+1. Register your Drone instance with GitHub. Here's a [quick guide](http://drone.readthedocs.org/en/latest/setup.html#github).
+1. Use the Drone web interface to add your repository to Drone. This process also automatically creates the necessary web hooks in GitHub.
 1. Configure the necessary [Parameters](https://github.com/drone/drone#params-injection) for the swift publish option.
-1. Add the .drone.yml file to your repository. Commit and push this change, and Github will notify Drone to process a build.
+1. Add the .drone.yml file to your repository. Commit and push this change, and GitHub will notify Drone to process a build.
 1. Review the build in the Drone web interface to ensure it was published successfully.
 
 That should be all you need to do. Good luck!

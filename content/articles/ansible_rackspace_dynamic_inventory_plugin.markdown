@@ -12,7 +12,7 @@ Installing inventory plugins isn't intuitive, and the documentation available on
 
 It boils down to this for the Rackspace plugin:
 
-1. Grab the latest version of rax.py from the plugins/inventory folder on Github. [Raw Github Link](https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/rax.py)
+1. Grab the latest version of rax.py from the plugins/inventory folder on GitHub. [Raw GitHub Link](https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/rax.py)
 1. Place this file on your Ansible master. The location doesn't matter that much, but convention says to put it in /etc/ansible/rax.py.
 1. Make this script executable by issuing **chmod +x /etc/ansible/rax.py**.
 1. As the user that runs Ansible, create the following file at *~/.rackspace_cloud_credentials*:(Be sure to replace the appropriate values with your Rackspace username and apikey.)

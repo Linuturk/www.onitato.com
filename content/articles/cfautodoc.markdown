@@ -8,7 +8,7 @@ Summary: There are many variations and combinations of AWS products and services
 
 There are many variations and combinations of AWS products and services that lend the platform to great flexibility and customization. We work hard to evaluate these combinations and put forth a collection of best practices for our customers to follow. One of these best practices is the use of CloudFormation templates. My team maintains a series of standard CloudFormation templates for our customers to use. Part of that maintenance includes updating those templates and testing them for functionality.
 
-Testing and documentation of these templates is important to help us maintain a great support and customer experience. Changes to one template shouldn’t break another template. Our documentation should be up to date with the latest iteration of our templates. We should be able to say with confidence that the templates on our master branch will work everytime. We use a combination of Ansible and CircleCI to automate this task.
+Testing and documentation of these templates is important to help us maintain a great support and customer experience. Changes to one template shouldn’t break another template. Our documentation should be up to date with the latest iteration of our templates. We should be able to say with confidence that the templates on our master branch will work every time. We use a combination of Ansible and CircleCI to automate this task.
 
 Our testing process includes these three main steps:
 

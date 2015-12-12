@@ -8,5 +8,5 @@ Summary: Slides and materials for the SaltStack talk at SA DevOps.
 
 <center>![SADevOps Logo]({filename}/images/SADevOps.png)</center>
 
- * [Meetup Link](http://www.meetup.com/SanAntonioDevOps/events/204910202/)
+ * [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/204910202/)
  * [Slides]({filename}/slides/sadevops-saltstack.pdf)

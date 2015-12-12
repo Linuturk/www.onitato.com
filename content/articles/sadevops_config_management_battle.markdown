@@ -8,5 +8,5 @@ Summary: Slides and materials for the Battle of the Python Config Management All
 
 <center>![SADevOps Logo]({filename}/images/SADevOps.png)</center>
 
- * [Meetup Link](http://www.meetup.com/SanAntonioDevOps/events/220090452/)
+ * [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/220090452/)
  * [Slides]({filename}/slides/WebPageTest-SaltConf_2015.pdf)

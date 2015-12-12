@@ -1,5 +1,9 @@
+dependencies:
+  pre:
+    - apt-get install -y aspell
 test:
   override:
+    - aspell -c content/articles/*.markdown
     - make html
 deployment:
   production:

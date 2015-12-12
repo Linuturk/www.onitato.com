@@ -4,5 +4,12 @@ FILES=$@
 
 for i in $FILES
 do
-	cat $i | aspell --list
+	if [[ $(cat $i | aspell --list) ]]; then
+		echo "Checking: $i"
+		cat $i | aspell --list
+		EXIT=1
+	else
+		EXIT=0
+	fi
 done
+exit $EXIT

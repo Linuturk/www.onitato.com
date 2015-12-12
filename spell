@@ -5,7 +5,7 @@ WORDS="./.wordlist"
 
 for i in $FILES
 do
-	if [[ $(cat $i | aspell --list) ]]; then
+	if [[ $(cat $i | aspell list --extra-dicts=$WORDS) ]]; then
 		echo "Checking: $i"
 		cat $i | aspell list --extra-dicts=$WORDS
 		EXIT=1

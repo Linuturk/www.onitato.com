@@ -1,5 +1,4 @@
 Title: My Impressions of salt-ssh
-Status: draft
 Tags: saltstack, salt-ssh, opinion
 Category: troubleshooting
 Slug: impressions-of-salt-ssh

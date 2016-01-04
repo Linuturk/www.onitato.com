@@ -2,15 +2,24 @@
 
 FILES=$@
 WORDS="./.wordlist"
+FOUND=false
 
+spellcheck ()
+{
+	FILE=$1
+	cat $1 | aspell list --extra-dicts=$WORDS
+}
 for i in $FILES
 do
-	if [[ $(cat $i | aspell list --extra-dicts=$WORDS) ]]; then
+	if [[ $(spellcheck $i) ]]
+	then
 		echo "Checking: $i"
-		cat $i | aspell list --extra-dicts=$WORDS
-		EXIT=1
-	else
-		EXIT=0
+		spellcheck $i
+		FOUND=true
 	fi
 done
-exit $EXIT
+
+if $FOUND
+then
+	exit 1
+fi

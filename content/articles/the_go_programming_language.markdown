@@ -1,5 +1,4 @@
 Title: The Go Programming Language
-Status: draft
 Tags: book, review, Golang, Go
 Category: impressions
 Slug: the-go-programming-language

@@ -1,7 +1,7 @@
 Title: Fedora 18 and Host Name Dashes
 Date: 2013-1-15 23:07
 Tags: 18, dashes, fedora, hostname, hostnamectl
-Category: troubleshooting
+Category: impressions
 Slug: fedora-18-and-host-name-dashes
 Author: Justin Phelps
 Summary: I ran into an interesting problem today when installing the newly released Fedora 18. It was quite annoying, so I wanted to document it here.

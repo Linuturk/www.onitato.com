@@ -1,6 +1,6 @@
 Title: My Impressions of salt-ssh
 Tags: saltstack, salt-ssh, opinion
-Category: troubleshooting
+Category: impressions
 Slug: impressions-of-salt-ssh
 Author: Justin Phelps
 Date: 2015-12-11 0:00

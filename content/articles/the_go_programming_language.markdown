@@ -1,7 +1,7 @@
 Title: The Go Programming Language
 Status: draft
 Tags: book, review, Golang, Go
-Category:
+Category: impressions
 Slug: the-go-programming-language
 Author: Justin Phelps
 Date: 2016-01-06 0:00

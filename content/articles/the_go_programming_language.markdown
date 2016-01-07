@@ -15,4 +15,4 @@ I'm new to Go. I've only been through the excellent [Tour of Go](https://tour.go
 
 There are plenty of examples and exercises in each section. I really enjoyed seeing the use of the graphics and API early on in the book. There is an entire section dedicated to building an API to return images based on the API calls you built. Really slick. I'm looking forward to more examples further on in the book. I hoped to have completed the entire book before writing the review but it has been slow going with all these exercises and examples.
 
-Hopefully we'll see some more Go projects in my future so I can stretch these new muscles.
+The short version of this review is I **highly recommend this book.** Hopefully we'll see some more Go projects in my future so I can stretch these new muscles.

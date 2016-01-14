@@ -1,5 +1,4 @@
 Title: Retrying Server Builds with Ansible
-Status: draft
 Tags: Rackspace, tutorial, ansible, retry
 Category: Rackspace
 Slug: retrying-server-builds-with-ansible

@@ -26,7 +26,7 @@ This process allows us to update various parts of a template using variables def
 
 ## Auto Documentation
 
-Most people don't like writing documentation. Documenting your code is a constant chore and never seems to be 100% accurate. To solve this problem I wrote a custom Ansible module to automatically document the generated CloudFormation template. The module parses the JSON and outputs a markdown file to be uploaded to GitHub. This means you don't have to read the JSON file to understand what parameters, resources, and outputs are provided by the template. This includes any defaults and descriptions related to those objects. This module can be found at [this location](https://github.com/Linuturk/cloudformation-autodoc/blob/master/cloudformation_autodoc.py). The following image shows usage of this module.
+Most people don't like writing documentation. Documenting your code is a constant chore and never seems to be 100% accurate. To solve this problem I wrote a custom Ansible module to automatically document the generated CloudFormation template. The module parses the JSON and outputs a markdown file to be uploaded to GitHub. This means you don't have to read the JSON file to understand what parameters, resources, and outputs are provided by the template. This includes any defaults and descriptions related to those objects. This module can be found at [this location](https://github.com/Linuturk/cloudformation-autodoc/blob/master/library/cloudformation_autodoc.py). The following image shows usage of this module.
 
 <center>![Autodoc Example]({filename}/images/cfautodoc/autodoc_example.png)</center>
 

@@ -3,7 +3,7 @@
 
 AUTHOR = u'Justin Phelps'
 SITENAME = u"Linuturk's Natter"
-SITEURL = 'http://onitato.com'
+SITEURL = 'http://www.onitato.com'
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE = 'fs'

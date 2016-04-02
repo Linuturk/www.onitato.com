@@ -11,9 +11,9 @@ DEFAULT_PAGINATION = 5
 GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 
 # Blogroll
-LINKS =  (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issues'),
-          ('Report an Issue', 'https://github.com/Linuturk/www.onitato.com/issues'),
-          ('Donate Bitcoin', 'http://linuturk.tip.me/'))
+LINKS = (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issues'),
+         ('Report an Issue', 'https://github.com/Linuturk/www.onitato.com/issues'),
+         ('Donate Bitcoin', 'http://linuturk.tip.me/'))
 
 # Social widget
 SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
@@ -23,9 +23,9 @@ SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
           ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
 
 # static paths will be copied under the same name
-STATIC_PATHS = ['images', 'slides', 'extra/robots.txt', 'extra/favicon.ico',
-        'extra/loaderio-4d9e22aa4f9e2acb7e6a99381a6937d6.txt',
-        ]
+STATIC_PATHS = ['images',
+                'slides'
+                ]
 
 # Define the location of the STATIC_PATHS above if it differs.
 EXTRA_PATH_METADATA = {

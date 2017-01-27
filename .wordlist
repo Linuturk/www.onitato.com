@@ -104,6 +104,8 @@ cfn
 channelname
 chkconfig
 chmod
+choco
+chocolatey
 chroot
 cicd
 circleci

@@ -4,7 +4,7 @@ dependencies:
 test:
   override:
     - bash spell content/articles/*
-    - make html
+    - pelican content
 deployment:
   production:
     branch: master

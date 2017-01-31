@@ -1,5 +1,4 @@
 Title: Running Chocolatey on Linux
-Status: draft
 Tags: chocolatey choco linux mono
 Category: tutorial
 Slug: running-chocolatey-on-linux

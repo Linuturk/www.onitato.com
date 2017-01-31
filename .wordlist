@@ -79,6 +79,7 @@ UUID
 Ubuntu
 VKontakte
 VPC
+WORKDIR
 WORKSPACE
 WebPageTest
 Wesnoth
@@ -120,6 +121,7 @@ debian
 dev
 dport
 dropbox
+exe
 expandtab
 filename
 filetype
@@ -149,6 +151,7 @@ keypair
 libcloud
 linuturk
 linux
+ln
 localdomain
 localhost
 mIRC

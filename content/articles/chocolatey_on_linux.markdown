@@ -31,4 +31,15 @@ Do you want to create Chocolatey packages but don't want to run a Windows server
     
     WORKDIR /root
 
+In the same directory as the Dockerfile, place a file called **choco** with executable permissions. The content of this file should be:
+
+    #!/bin/bash
+    
+    cd /usr/local/bin/chocolatey
+    mono choco.exe "$@" --allow-unofficial
+
+Build the image like you would any docker image. In the directory with the Dockerfile run **docker build -t choco .**
+
+Then, run a new container based on this new image: **docker run --rm -ti choco /bin/bash**
+
 Simply cd into the */usr/local/src/choco/choco-stable/build_output/chocolatey* directory and run **mono choco.exe -h** to test the install. Should work the way you are expecting.

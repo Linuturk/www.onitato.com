@@ -6,7 +6,7 @@ Author: Justin Phelps
 Date: 2017-01-26 0:00
 Summary: Do you want to create Chocolatey packages but don't want to run a Windows server? Use this Dockerfile to build Chocolatey and do your package development without a Windows system.
 
-**Update:** This docker image is now available on the Docker Hub at https://hub.docker.com/r/linuturk/mono-choco/.
+**Update:** This docker image is now available on the Docker Hub as [linuturk/mono-choco](https://hub.docker.com/r/linuturk/mono-choco/).
 
 Do you want to create Chocolatey packages but don't want to run a Windows server? Use this Dockerfile to build Chocolatey and do your package development without a Windows system.
 

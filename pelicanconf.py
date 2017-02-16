@@ -13,7 +13,7 @@ GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 # Blogroll
 LINKS = (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issues'),
          ('Report an Issue', 'https://github.com/Linuturk/www.onitato.com/issues'),
-         ('Donate Bitcoin', 'http://linuturk.tip.me/'))
+         ('Donate Bitcoin', 'https://www.coinbase.com/linuturk'))
 
 # Social widget
 SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),

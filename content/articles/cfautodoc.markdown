@@ -1,6 +1,6 @@
 Title: Testing CloudFormation Templates with Ansible
 Tags: aws, ansible, cloud formation, custom
-Category: Rackspace
+Category: tech
 Slug: testing-cloud-formation-templates
 Author: Justin Phelps
 Date: 2015-10-06 0:00

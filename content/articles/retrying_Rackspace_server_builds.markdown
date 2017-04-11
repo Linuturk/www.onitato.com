@@ -1,6 +1,6 @@
 Title: Retrying Server Builds with Ansible
 Tags: Rackspace, tutorial, ansible, retry
-Category: Rackspace
+Category: tech
 Slug: retrying-server-builds-with-ansible
 Author: Justin Phelps
 Date: 2016-01-14 0:00

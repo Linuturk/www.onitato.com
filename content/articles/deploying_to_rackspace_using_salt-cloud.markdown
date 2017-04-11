@@ -1,7 +1,7 @@
 Title: Deploying to Rackspace using salt-cloud
 Date: 2014-2-11 0:00
 Tags: rackspace, salt, salt-cloud, configuration management
-Category: Rackspace
+Category: tech
 Slug: deploying-to-rackspace-using-salt-cloud
 Author: Justin Phelps
 Summary: These instructions should be a nice and easy start to deploying Rackspace Cloud servers using the salt-cloud tool. Just follow along exactly, and at the end you should have a fully functional salt-cloud deployment tool.

@@ -1,6 +1,6 @@
 Title: No Hassle Blog Automation Redux
 Tags: drone, pelican, jenkins, blog, automation
-Category: tutorial
+Category: tech
 Slug: no-hassle-blog-automation-redux
 Author: Justin Phelps
 Date: 2014-05-29 0:00

@@ -1,7 +1,7 @@
 Title: PEP8 Checking in Vim
 Date: 2014-2-11 0:00
 Tags: pep8, python, vim, flake8, vim-pathogen
-Category: tutorial
+Category: tech
 Slug: pep8-checking-in-vim
 Author: Justin Phelps
 Summary: Following proper coding standards is important to ensure others can read and modify your code. I make use of the following tools when writing Python to ensure I am formatting my code properly.

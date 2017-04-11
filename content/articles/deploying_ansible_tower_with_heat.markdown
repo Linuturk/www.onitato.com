@@ -1,6 +1,6 @@
 Title: Deploying Ansible Tower using HEAT
 Tags: ansible, tower, heat, hot, template
-Category: tutorial
+Category: tech
 Slug: deploying-ansible-tower-using-heat
 Author: Justin Phelps
 Date: 2014-03-10 0:00

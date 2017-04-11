@@ -1,7 +1,7 @@
 Title: Connecting to IRC
 Date: 2012-11-27 0:00
 Tags: irc, tutorial
-Category: tutorial
+Category: tech
 Slug: connecting-to-irc
 Author: Justin Phelps
 Summary: Connecting to an IRC server isn't hard. You just need the right IRC client, and a little bit of information.

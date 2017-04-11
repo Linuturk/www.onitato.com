@@ -1,6 +1,6 @@
 Title: Running Chocolatey on Linux
 Tags: chocolatey choco linux mono
-Category: tutorial
+Category: tech
 Slug: running-chocolatey-on-linux
 Author: Justin Phelps
 Date: 2017-01-26 0:00

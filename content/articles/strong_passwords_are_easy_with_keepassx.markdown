@@ -1,7 +1,7 @@
 Title: Strong Passwords are Easy with KeePassX
 Date: 2012-11-29 0:00
 Tags: dropbox, keepassx, password, tutorial
-Category: tutorial
+Category: tech
 Slug: strong-passwords-are-easy-with-keepassx
 Author: Justin Phelps
 Summary: Strong passwords are important, today more than ever. Clever passwords like "Password123", "hunter2", and just the letter "a" just won't cut it anymore. How can someone create strong passwords, use a different one for every account they have, and still remember them all? KeePassX is the answer.

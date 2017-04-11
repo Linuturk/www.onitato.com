@@ -1,7 +1,7 @@
 Title: Send Email for yum-cron Update
 Date: 2014-2-11 0:00
 Tags: email, yum, yum-cron, yum-updatesd
-Category: tutorial
+Category: tech
 Slug: send-email-for-yum-cron-update
 Author: Justin Phelps
 Summary: When using yum-cron, you might want to receive email notifications when updates are applied. Here is how you enable these notifications for CentOS.

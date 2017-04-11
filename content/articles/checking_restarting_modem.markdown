@@ -1,6 +1,6 @@
 Title: Checking and Restarting a Modem
 Tags: motorola, sb6141, bash, automation
-Category: tutorial
+Category: tech
 Slug: checking-restarting-modem-sb6141
 Author: Justin Phelps
 Date: 2015-08-12 0:00

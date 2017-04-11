@@ -1,7 +1,7 @@
 Title: IRC Logging Bot
 Date: 2014-2-11 0:00
 Tags: irc, pierc, python, logging
-Category: tutorial
+Category: tech
 Slug: irc-logging-bot
 Author: Justin Phelps
 Summary: One of the disadvantages of using IRC over another chat medium is the lack of logging while you aren't connected to the server. In this article, I will describe the process I used to implement logging for my favorite IRC channels.

@@ -1,7 +1,7 @@
 Title: Keeping your Files Safe with Dropbox
 Date: 2012-11-28 0:00
 Tags: backup, dropbox, files, tutorial
-Category: tutorial
+Category: tech
 Slug: keeping-your-files-safe-with-dropbox
 Author: Justin Phelps
 Summary: Everyone has a collection of documents and pictures that are important to them. Don't make the mistake of not backing up these files.

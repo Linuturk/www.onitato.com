@@ -1,6 +1,6 @@
 Title: No Hassle Blog Automation - A New Hope
 Tags: circleci, pelican, blog, automation
-Category: tutorial
+Category: tech
 Slug: no-hassle-blog-automation-a-new-hope
 Author: Justin Phelps
 Date: 2015-02-05 0:00

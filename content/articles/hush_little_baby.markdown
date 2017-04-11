@@ -1,5 +1,4 @@
 Title: Hush Little Baby
-Status: draft
 Tags: poem, lullaby
 Category: misc
 Slug: hush-little-baby

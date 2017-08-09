@@ -1,6 +1,6 @@
 Title: The Go Programming Language
 Tags: book, review, Golang, Go
-Category: misc
+Category: impressions
 Slug: the-go-programming-language
 Author: Justin Phelps
 Date: 2016-01-06 0:00

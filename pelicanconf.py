@@ -51,3 +51,6 @@ ARTICLE_EXCLUDES = (('pages',))
 GOOGLE_ANALYTICS = "UA-34793085-1"
 TWITTER_USERNAME = "Linuturk"
 DISQUS_SITENAME = "linuturksnatter"
+
+# Use wide version of theme
+CSS_FILE = "wide.css"

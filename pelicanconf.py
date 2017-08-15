@@ -13,7 +13,10 @@ GITHUB_URL = 'https://github.com/Linuturk/www.onitato.com'
 # Blogroll
 LINKS = (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issues'),
          ('Report an Issue', 'https://github.com/Linuturk/www.onitato.com/issues'),
-         ('Donate Bitcoin', 'bitcoin:1FkKq8MSLuBMcE6NfvZ4qLhAYK6auTthTM'))
+         ('Donate Bitcoin', 'bitcoin:1FkKq8MSLuBMcE6NfvZ4qLhAYK6auTthTM'),
+         ('Disclaimer', SITEURL + '/pages/disclaimer.html'),
+         ('onitato?', SITEURL + /pages/onitato.html),
+         )
 
 # Social widget
 SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
@@ -37,7 +40,7 @@ EXTRA_PATH_METADATA = {
         }
 
 # Enable pages on the menu
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 
 # Page settings
 PAGE_PATHS = ['pages']

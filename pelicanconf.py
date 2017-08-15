@@ -4,7 +4,7 @@
 AUTHOR = u'Justin Phelps'
 SITENAME = u"Linuturk's Natter"
 SITEURL = 'http://www.onitato.com'
-TIMEZONE = 'America/Chicago'
+TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE = 'fs'
 DEFAULT_PAGINATION = 5
@@ -25,6 +25,7 @@ SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
           ('twitter', 'https://twitter.com/linuturk'),
           ('linkedin', 'https://www.linkedin.com/in/linuturk'),
           ('twitch', 'https://www.twitch.tv/linuturk'),
+          ('gaming', SITEURL + '/pages/gaming.html'),
           )
 
 # static paths will be copied under the same name

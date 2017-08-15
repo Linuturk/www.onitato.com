@@ -1,6 +1,4 @@
-Title: social
-
-## Gaming Networks
+Title: Gaming Networks
 
  * [BattleTag](https://us.battle.net) / Linuturk#1600
  * [EA/Origin](https://myaccount.ea.com) / Linuturk

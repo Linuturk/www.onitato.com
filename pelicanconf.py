@@ -15,7 +15,7 @@ LINKS = (('Request a Topic', 'https://github.com/Linuturk/www.onitato.com/issues
          ('Report an Issue', 'https://github.com/Linuturk/www.onitato.com/issues'),
          ('Donate Bitcoin', 'bitcoin:1FkKq8MSLuBMcE6NfvZ4qLhAYK6auTthTM'),
          ('Disclaimer', SITEURL + '/pages/disclaimer.html'),
-         ('onitato?', SITEURL + /pages/onitato.html),
+         ('onitato?', SITEURL + '/pages/onitato.html'),
          )
 
 # Social widget

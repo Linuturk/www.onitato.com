@@ -20,7 +20,9 @@ SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
           ('github', 'https://github.com/Linuturk'),
           ('facebook', 'https://www.facebook.com/linuturk'),
           ('twitter', 'https://twitter.com/linuturk'),
-          ('linkedin', 'http://www.linkedin.com/in/linuturk'),)
+          ('linkedin', 'https://www.linkedin.com/in/linuturk'),
+          ('twitch', 'https://www.twitch.tv/linuturk'),
+          )
 
 # static paths will be copied under the same name
 STATIC_PATHS = ['images',

@@ -6,7 +6,3 @@ Title: Gaming Networks
  * [Playstation Network](https://my.playstation.com/Linuturk) / Linuturk
  * [Steam](http://steamcommunity.com/id/linuturk) / linuturk
  * [Xbox Live](http://www.xbox.com/) / Linuturk
-
-## Social Media
-
-**See the bottom right of the page**

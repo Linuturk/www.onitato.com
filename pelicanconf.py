@@ -25,7 +25,7 @@ SOCIAL = (('google+', 'https://plus.google.com/+JustinPhelpsLinuturk/posts'),
           ('twitter', 'https://twitter.com/linuturk'),
           ('linkedin', 'https://www.linkedin.com/in/linuturk'),
           ('twitch', 'https://www.twitch.tv/linuturk'),
-          ('gaming', SITEURL + '/pages/gaming.html'),
+          ('gaming', SITEURL + '/pages/gaming-networks.html'),
           )
 
 # static paths will be copied under the same name

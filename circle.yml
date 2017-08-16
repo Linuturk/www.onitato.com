@@ -4,6 +4,7 @@ dependencies:
 test:
   override:
     - bash spell content/post/*
+    - hugo --cleanDestinationDir
 deployment:
   production:
     branch: master

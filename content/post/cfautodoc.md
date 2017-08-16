@@ -21,7 +21,7 @@ Our testing process includes these three main steps:
 
 Our templates exist in a GitHub repository tied to CircleCI. Every change made to a template is fully tested and documented in an automated fashion. Our templates start as a jinja2 file that is then templated by Ansible. We are templating our templates! The template module in Ansible parses the jinja2 file and outputs a JSON CloudFormation template. The variables shown below get replaced when the template is generated.
 
-```json
+```JSON
 "Metadata": {
   "Version": "{{ BaseNetwork.Version }}",
   "LastUpdated": "{{ ansible_date_time.date }} {{ ansible_date_time.time }}",

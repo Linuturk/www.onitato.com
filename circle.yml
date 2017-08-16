@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - sudo apt-get install -y aspell
+    - git submodule update --init --recursive
 test:
   override:
     - bash spell content/post/*

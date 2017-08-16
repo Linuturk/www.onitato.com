@@ -1,10 +1,11 @@
-Title: No Hassle Blog Automation Redux
-Tags: drone, pelican, jenkins, blog, automation
-Category: tech
-Slug: no-hassle-blog-automation-redux
-Author: Justin Phelps
-Date: 2014-05-29 0:00
-Summary: Due to the difficulty in maintaining a full Jenkins instance, I have revisited the blog automation issue and have replaced Jenkins with Drone.
++++
+title = "No Hassle Blog Automation Redux"
+tags = ["drone", "pelican", "jenkins", "blog", "automation"]
+topics = ["tech"]
+slug = "no-hassle-blog-automation-redux"
+date = "2014-05-29"
+description = "No more Jenkins."
++++
 
 Due to the difficulty in maintaining a full Jenkins instance, I have revisited the blog automation issue and have replaced Jenkins with Drone. Making use of a tool like Drone greatly simplifies the setup process and lowers the barrier of entry for this type of project.
 

@@ -3,7 +3,7 @@ title = "Testing CloudFormation Templates with Ansible"
 description = "Using Ansible to test CloudFormation Templates."
 tags = [ "aws", "ansible", "cloud formation", "custom" ]
 date = "2015-10-06"
-categories = [ "tech" ]
+topics = ["tech"]
 slug = "testing-cloud-formation-templates"
 +++
 

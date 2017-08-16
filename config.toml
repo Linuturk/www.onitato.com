@@ -41,27 +41,39 @@ paginate = 5
     identifier = "post"
     url = "/post/"
   [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 3
+    identifier = "topic"
+    url = "/topics/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 4
+    identifier = "tag"
+    url = "/tags/"
+  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
+    weight = 5
     identifier = "about"
     url = "/about/"
   [[menu.main]]
     name = "Gaming"
     pre = "<i class='fa fa-gamepad fa-fw'></i>"
-    weight = 5
+    weight = 6
     identifier = "gaming"
     url = "/gaming/"
   [[menu.main]]
     name = "Report Bug"
     pre = "<i class='fa fa-bug fa-fw'></i>"
-    weight = 6
+    weight = 7
     identifier = "bug"
     url = "https://github.com/Linuturk/www.onitato.com/issues"
   [[menu.main]]
     name = "Donate"
     pre = "<i class='fa fa-btc fa-fw'></i>"
-    weight = 7
+    weight = 8
     identifier = "bitcoin"
     url = "bitcoin:1FkKq8MSLuBMcE6NfvZ4qLhAYK6auTthTM"
 

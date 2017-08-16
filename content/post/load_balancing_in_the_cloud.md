@@ -1,10 +1,11 @@
-Title: Load Balancing in the Cloud
-Date: 2014-2-11 0:00
-Tags: rackspace, cloud, load balancing, load balancer
-Category: tech
-Slug: load-balancing-in-the-cloud
-Author: Justin Phelps
-Summary: Load balancing is performed by a device or service acting as a single endpoint to your application or site. This device then spreads the requests it receives across multiple back end nodes. There are benefits to using a load balancer in your configuration.
++++
+title = "Load Balancing in the Cloud"
+date = "2014-02-11"
+tags = ["rackspace", "cloud", "load balancing", "load balancer"]
+topics = ["tech"]
+slug = "load-balancing-in-the-cloud"
+description = "Share the load."
++++
 
 *This article is in response to a [request](https://github.com/Linuturk/www.onitato.com/issues/2) by Shawn Laasch and Jordan Rinke. [Request](https://github.com/Linuturk/www.onitato.com/issues) your topic today! This article will focus on [Rackspace Cloud Load Balancers](http://www.rackspace.com/cloud/load-balancing/).*
 

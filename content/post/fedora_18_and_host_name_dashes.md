@@ -1,14 +1,15 @@
-Title: Fedora 18 and Host Name Dashes
-Date: 2013-1-15 23:07
-Tags: 18, dashes, fedora, hostname, hostnamectl
-Category: impressions
-Slug: fedora-18-and-host-name-dashes
-Author: Justin Phelps
-Summary: I ran into an interesting problem today when installing the newly released Fedora 18. It was quite annoying, so I wanted to document it here.
++++
+title = "Fedora 18 and Host Name Dashes"
+date = "2013-01-15 23:07:00"
+tags = ["18", "dashes", "fedora", "hostname", "hostnamectl"]
+topics = ["impressions"]
+slug = "fedora-18-and-host-name-dashes"
+description = "Annoying problem for sure."
++++
 
 I ran into an interesting problem today when installing the newly released [Fedora 18](https://fedoraproject.org/). It was quite annoying, so I wanted to document it here.
 
-<center>![Fedora 18]({filename}/images/f18_screenshot.png)</center>
+<center>![Fedora 18](/images/f18_screenshot.png)</center>
 
 Using the new installer, I configured my computer's host name to **subdomain.domain.com** on the network setup page. After I finished the installation, I noticed my host name was still the default **localhost.localdomain**. I tried the usual tricks to set the host name, but all the following tactics failed:
 

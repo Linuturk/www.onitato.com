@@ -1,7 +1,7 @@
 +++
 title = "Checking and Restarting a Modem"
 tags = [ "motorola", "sb6141", "bash", "automation" ]
-categories = [ "tech" ]
+topics = [ "tech" ]
 slug = "checking-restarting-modem-sb6141"
 date = "2015-08-12"
 description = "Automate my modem restarts."

@@ -1,10 +1,11 @@
-Title: Hush Little Baby
-Tags: poem, lullaby
-Category: misc
-Slug: hush-little-baby
-Author: Justin Phelps
-Date: 2017-04-10 0:00
-Summary: My own special version of Hush Little Baby.
++++
+title = "Hush Little Baby"
+tags = ["poem", "lullaby"]
+topics = ["misc"]
+slug = "hush-little-baby"
+date = "2017-04-10"
+description = "My own special version of Hush Little Baby."
++++
 
 My own special version of Hush Little Baby.
 

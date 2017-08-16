@@ -1,10 +1,11 @@
-Title: No Hassle Blog Automation - A New Hope
-Tags: circleci, pelican, blog, automation
-Category: tech
-Slug: no-hassle-blog-automation-a-new-hope
-Author: Justin Phelps
-Date: 2015-02-05 0:00
-Summary: In this third installment of my No Hassle Blog Automation series, I remove the necessity for running any infrastructure of my own.
++++
+title = "No Hassle Blog Automation - A New Hope"
+tags = ["circleci", "pelican", "blog", "automation"]
+topics = ["tech"]
+slug = "no-hassle-blog-automation-a-new-hope"
+date = "2015-02-05"
+description = "No more servers."
++++
 
 In this third installment of my No Hassle Blog Automation series, I remove the necessity for running any infrastructure of my own. Drone has been replaced with a hosted solution at [CircleCI](https://circleci.com/). Their support is amazing, and their circle.yml format made configuration easy. Take a look at the [first](|filename|/articles/no_hassle_blog_automation.markdown) and [second](|filename|/articles/no_hassle_blog_automation_redux.markdown) installments of this series.
 

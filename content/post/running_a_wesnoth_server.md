@@ -1,14 +1,15 @@
-Title: Running a Wesnoth Server
-Date: 2012-12-8 0:00
-Tags: fedora, multiplayer, tutorial, wesnoth, wesnoth-server
-Category: tech
-Slug: running-a-wesnoth-server
-Author: Justin Phelps
-Summary: The Battle for Wesnoth is a turn based strategy game that has unique and fun campaigns and great multiplayer maps. Playing on the official server is fun, but sometimes you'll want a private server on which you and your close friends can play.
++++
+title = "Running a Wesnoth Server"
+date = "2012-12-08"
+tags = ["fedora", "multiplayer", "tutorial", "wesnoth", "wesnoth-server"]
+topics = ["tech"]
+slug = "running-a-wesnoth-server"
+description = "Play together."
++++
 
 [The Battle for Wesnoth](http://www.wesnoth.org/) is a turn based strategy game that has unique and fun campaigns and great multiplayer maps. Playing on the official server is fun, but sometimes you'll want a private server on which you and your close friends can play.
 
-<center>![The Battle for Wesnoth]({filename}/images/wesnoth_logo.jpg)</center>
+<center>![The Battle for Wesnoth](/images/wesnoth_logo.jpg)</center>
 
 ## Installing the Server Software
 

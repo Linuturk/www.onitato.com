@@ -1,10 +1,11 @@
-Title: My Impressions of salt-ssh
-Tags: saltstack, salt-ssh, opinion
-Category: impressions
-Slug: impressions-of-salt-ssh
-Author: Justin Phelps
-Date: 2015-12-11 0:00
-Summary: I've done a search and there seem to be a large number of issues related to salt-ssh usability with non-root users. I'd like to understand more about the perceived use case from Salt's perspective and give some feedback.
++++
+title = "My Impressions of salt-ssh"
+tags = ["saltstack", "salt-ssh", "opinion"]
+topics = ["impressions"]
+slug = "impressions-of-salt-ssh"
+date = "2015-12-11"
+description = "Why aren't you Ansible?"
++++
 
 I've done a search and there seem to be a large number of issues related to salt-ssh usability with non-root users. I'd like to understand more about the perceived use case from Salt's perspective and give some feedback.
 

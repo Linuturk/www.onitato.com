@@ -1,7 +1,7 @@
 +++
 title = "Running Chocolatey on Linux"
 tags = [ "chocolatey", "choco", "linux", "mono" ]
-categories = [ "tech" ]
+topics = [ "tech" ]
 slug = "running-chocolatey-on-linux"
 date = "2017-01-26"
 description = "Create Chocolatey packages on Linux."

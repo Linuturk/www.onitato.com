@@ -1,10 +1,11 @@
-Title: Using a Tablet as a Laptop Replacement
-Date: 2014-2-11 0:00
-Tags: tablet, android, laptop, development, thinkpad
-Category: impressions
-Slug: tablet-as-laptop-replacement
-Author: Justin Phelps
-Summary: I've been using a tablet as a laptop replacement for the past week. These are my thoughts concerning my experiences with the current state of Android on a ThinkPad Tablet.
++++
+title = "Using a Tablet as a Laptop Replacement"
+date = "2014-02-11"
+tags = ["tablet", "android", "laptop", "development", "thinkpad"]
+topics = ["impressions"]
+slug = "tablet-as-laptop-replacement"
+description = "So close..."
++++
 
 I've been using a tablet as a laptop replacement for the past week. These are my thoughts concerning my experiences with the current state of Android on a ThinkPad Tablet.
 

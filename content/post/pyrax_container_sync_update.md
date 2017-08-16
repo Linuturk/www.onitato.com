@@ -1,10 +1,11 @@
-Title: Pyrax Container Sync Update
-Date: 2014-2-11 0:00
-Tags: pyrax, python, rackspace, cloud files
-Category: tech
-Slug: pyrax-container-sync-update
-Author: Justin Phelps
-Summary: My initial draft of the cf_pyrax.py script used in my automation deleted all the contents of a Cloud Files container, and then re-uploaded this content. This process was inefficient and also caused issues loading the site while this process was running.
++++
+title = "Pyrax Container Sync Update"
+date = "2014-02-11"
+tags = ["pyrax", "python", "rackspace", "cloud files"]
+topics = ["tech"]
+slug = "pyrax-container-sync-update"
+description = "Less data transfer."
++++
 
 My initial draft of the **cf_pyrax.py** script used in my automation deleted all the contents of a Cloud Files container, and then re-uploaded this content. This process was inefficient and also caused issues loading the site while this process was running.
 

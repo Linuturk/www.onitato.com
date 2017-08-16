@@ -2,7 +2,7 @@
 title = "Ansible's Rackspace Dynamic Inventory Plugin"
 date = "2014-02-18"
 tags = [ "rackspace", "ansible", "inventory", "plugin" ]
-categories = [ "tech" ]
+topics = [ "tech" ]
 slug = "ansible-rackspace-dynamic-inventory"
 description = "The Rackspace dynamic inventory plugin is a powerful tool."
 +++

@@ -2,7 +2,7 @@
 title = "Connecting to IRC"
 date = "2012-11-27"
 tags = [ "irc", "tutorial" ]
-categories= [ "tech" ]
+topics = [ "tech" ]
 slug = "connecting-to-irc"
 description = "IRC is easy."
 +++

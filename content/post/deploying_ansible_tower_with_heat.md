@@ -1,7 +1,7 @@
 +++
 title = "Deploying Ansible Tower using HEAT"
 tags = [ "ansible", "tower", "heat", "hot", "template" ]
-category = ["tech"]
+topics = ["tech"]
 slug = "deploying-ansible-tower-using-heat"
 date = "2014-03-10"
 description = "Try Ansible Tower using HEAT."

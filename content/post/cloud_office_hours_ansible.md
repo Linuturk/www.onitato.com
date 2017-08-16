@@ -1,7 +1,7 @@
 +++
 title = "Ansible Certified Engineer"
 tags = [ "ansible", "talks", "certified", "rackspace" ]
-categories = [ "talks" ]
+topics = [ "talks" ]
 slug = "ansible-certified-engineer"
 date = "2015-08-06 13:00:00"
 description = "Rackspace Cloud Office Hours."

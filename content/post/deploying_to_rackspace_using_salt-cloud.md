@@ -2,7 +2,7 @@
 title = "Deploying to Rackspace using salt-cloud"
 date = "2014-02-11"
 tags = [ "rackspace", "salt", "salt-cloud", "configuration management" ]
-categories = ["tech"]
+topics = ["tech"]
 slug = "deploying-to-rackspace-using-salt-cloud"
 description = "Deploying Rackspace Cloud servers using salt-cloud."
 +++

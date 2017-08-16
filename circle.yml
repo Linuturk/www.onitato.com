@@ -4,6 +4,7 @@ dependencies:
 test:
   override:
     - bash spell content/post/*
+    - bash ./install-hugo.sh
     - hugo --cleanDestinationDir
 deployment:
   production:

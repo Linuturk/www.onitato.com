@@ -3,10 +3,9 @@ dependencies:
     - sudo apt-get install -y aspell
 test:
   override:
-    - bash spell content/articles/*
-    - pelican content
+    - bash spell content/post/*
 deployment:
   production:
     branch: master
     commands:
-      - aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/output s3://$BUCKET --delete
+      - aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/public s3://$BUCKET --delete

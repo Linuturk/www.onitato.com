@@ -1,12 +1,14 @@
-Title: Connecting to IRC
-Date: 2012-11-27 0:00
-Tags: irc, tutorial
-Category: tech
-Slug: connecting-to-irc
-Author: Justin Phelps
-Summary: Connecting to an IRC server isn't hard. You just need the right IRC client, and a little bit of information.
++++
+title = "Connecting to IRC"
+date = "2012-11-27"
+tags = [ "irc", "tutorial" ]
+categories= [ "tech" ]
+slug = "connecting-to-irc"
+description = "IRC is easy."
++++
 
 IRC stands for Internet Relay Chat. Here is the first paragraph from the Wikipedia article on [IRC](http://en.wikipedia.org/wiki/Internet_Relay_Chat):
+
 > Internet Relay Chat (IRC) is a protocol for real-time Internet text messaging (chat) or synchronous conferencing. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing.
 
 Connecting to an IRC server isn't hard. You just need the right IRC client, and a little bit of information.

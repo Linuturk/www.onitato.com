@@ -1,0 +1,114 @@
+languageCode = "en-us"
+baseURL = "http://www.onitato.com/"
+title = "Linuturk's Natter"
+author = "Justin Phelps"
+copyright = "&copy; 2017. All rights reserved."
+theme = "blackburn"
+canonifyurls = true
+paginate = 5
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown on the home page
+  # subtitle = ""
+  brand = "Onitato"
+  googleAnalytics = "UA-34793085-1"
+  disqus = "linuturksnatter"
+  # CSS name for highlight.js
+  highlightjs = "default"
+  highlightjs_extra_languages = ["yaml", "Dockerfile"]
+  dateFormat = "Jan 02 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  #custom_css = ["css/my.css"]
+  #custom_js = ["js/my.js"]
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Gaming"
+    pre = "<i class='fa fa-gamepad fa-fw'></i>"
+    weight = 5
+    identifier = "gaming"
+    url = "/gaming/"
+  [[menu.main]]
+    name = "Report Bug"
+    pre = "<i class='fa fa-bug fa-fw'></i>"
+    weight = 6
+    identifier = "bug"
+    url = "https://github.com/Linuturk/www.onitato.com/issues"
+  [[menu.main]]
+    name = "Donate"
+    pre = "<i class='fa fa-btc fa-fw'></i>"
+    weight = 7
+    identifier = "bitcoin"
+    url = "bitcoin:1FkKq8MSLuBMcE6NfvZ4qLhAYK6auTthTM"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "Linuturk"
+  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
+  facebook = "linuturk"
+  googleplus = "JustinPhelpsLinuturk"
+  #weibo = "*"
+  #tumblr = "*"
+
+  # SNS photo/video sharing
+  #instagram = "*"
+  #flickr = "*"
+  #photo500px = "*"
+  #pinterest = "*"
+  youtube = "Linuturk"
+  #vimeo = "*"
+  #vine = "*"
+  #slideshare = "*"
+
+  # SNS career oriented
+  linkedin = "linuturk"
+  #xing = "*"
+
+  # SNS news
+  #reddit = "Linuturk"
+  #hackernews = "Linuturk"
+
+  # Techie
+  github = "linuturk"
+  #gitlab = "*"
+  #bitbucket = "*"
+  #stackoverflow = "*"
+  #serverfault = "*"
+
+  # Gaming
+  steam = "linuturk"
+  #mobygames = "*"
+
+  # Music
+  #lastfm = "*"
+  #discogs = "*"
+
+  # Other
+  keybase = "linuturk"

@@ -5,4 +5,4 @@ www.onitato.com
 
 Source code for www.onitato.com.
 
-Built using [Pelican](http://blog.getpelican.com/).
+Built using [Hugo](https://gohugo.io/).

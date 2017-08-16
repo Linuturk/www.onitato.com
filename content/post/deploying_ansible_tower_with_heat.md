@@ -1,29 +1,30 @@
-Title: Deploying Ansible Tower using HEAT
-Tags: ansible, tower, heat, hot, template
-Category: tech
-Slug: deploying-ansible-tower-using-heat
-Author: Justin Phelps
-Date: 2014-03-10 0:00
-Summary: Deploying Ansible Tower isn't hard, but automating a server build and triggering the installation lowers the barrier of entry for trying out Tower. This article will describe the HEAT Template I've created to automate this process.
++++
+title = "Deploying Ansible Tower using HEAT"
+tags = [ "ansible", "tower", "heat", "hot", "template" ]
+category = ["tech"]
+slug = "deploying-ansible-tower-using-heat"
+date = "2014-03-10"
+description = "Try Ansible Tower using HEAT."
++++
 
 Deploying Ansible Tower isn't hard, but automating a server build and triggering the installation lowers the barrier of entry for trying out Tower. This article will describe the HEAT Template I've created to automate this process.
 
-#Anatomy of a HEAT Template
+# Anatomy of a HEAT Template
 
 Templates are broken into several main sections. I'm going to describe each one of them so you fully understand the process. Follow along here: [Ansible Tower HEAT Template](https://github.com/rackspace-orchestration-templates/ansible-tower)
 
-##Description and Version
+## Description and Version
 
 It is important that the Version information you specify matches the HEAT version in use. The description should describe the overall goal of the template.
 
-```
+```yaml
 heat_template_version: 2013-05-23
 
 description: |
   A template that deploys an Ansible Tower node.
 ```
 
-##Parameters
+## Parameters
 
 Parameters are inputs that make the template more flexible. They allow you to define dynamic portions of the configuration without having separate templates for different server sizes.
 
@@ -36,7 +37,7 @@ The parameters I define for the template are:
 * The folder name that is extracted from the tarball.
 * Various password definitions for the installer to use.
 
-```
+```yaml
 parameters:
 
   flavor:
@@ -112,7 +113,7 @@ parameters:
       description : must contain only alphanumeric characters.
 ```
 
-##Resources
+## Resources
 
 Resources are the actual compute, database, and load balancer resources required for your environment. In this specific case, I have a single resource (Rackspace Cloud Server) and some basic configuration defined in user_data. You'll also see variable definitions that reference the parameters we defined above.
 
@@ -125,7 +126,7 @@ Some useful things to know about the user_data section:
 
 Typically, you want to use these commands to bootstrap your server into a complete configuration management tool.
 
-```
+```yaml
 resources:
 
   ansible_tower:
@@ -163,11 +164,11 @@ resources:
             "%server_name%": { get_param: server_name }
 ```
 
-##Outputs
+## Outputs
 
 Outputs should contain information useful to the person deploying the template. This can include things like URL's to access resources and their associated credentials. You also should probably include IP address information as well.
 
-```
+```yaml
 outputs:
 
   public_ip:
@@ -179,6 +180,6 @@ outputs:
     description: The private IP address of the server
 ```
 
-#Ansible Tower
+# Ansible Tower
 
 Ansible Tower is a solid graphical interface that gives you visibility into your Ansible jobs and a REST API. You currently get access to this with 10 nodes, for free. See [Ansible's Site](http://www.ansible.com/tower) for more information and pricing.

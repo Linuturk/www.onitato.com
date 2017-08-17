@@ -1,5 +1,5 @@
 +++
-title = "Gaming Networks"
+title = "Gaming"
 +++
 
 Add me on your favorite gaming network:

@@ -1,5 +1,5 @@
 languageCode = "en-us"
-baseURL = "http://www.onitato.com/"
+baseURL = "https://www.onitato.com/"
 title = "Linuturk's Natter"
 author = "Justin Phelps"
 copyright = "&copy; 2017. All rights reserved."

@@ -3,7 +3,7 @@
 set -x
 set -e
 
-HUGO_VERSION=0.26
+HUGO_VERSION=0.31.1
 HUGO_DOWNLOAD=hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 # Install Hugo if not already cached or upgrade an old version.

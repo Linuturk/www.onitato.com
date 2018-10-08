@@ -1,14 +1,26 @@
-dependencies:
-  pre:
-    - sudo apt-get install -y aspell
-    - git submodule update --init --recursive
-test:
-  override:
-    - bash spell content/post/*
-    - bash ./install-hugo.sh
-    - hugo --cleanDestinationDir
-deployment:
-  production:
-    branch: master
-    commands:
-      - aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/public s3://$BUCKET --delete
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy:
+        requires:
+          - build
+        filters:
+          branches:
+            only: master
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang
+    steps:
+      - checkout
+      - run: sudo apt install -y aspell
+      - run: bash spell content/post/*
+      - run: bash ./install-hugo.sh
+      - run: hugo --cleanDestinationDir
+  deploy:
+    steps:
+      - checkout
+      - run: aws s3 sync $HOME/$CIRCLE_PROJECT_REPONAME/public s3://$BUCKET --delete

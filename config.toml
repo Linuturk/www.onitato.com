@@ -80,47 +80,11 @@ paginate = 5
 [social]
   # Link your social networking accounts to the side menu
   # by entering your username or ID.
-
-  # SNS microblogging
   twitter = "Linuturk"
-  #gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
   facebook = "linuturk"
-  #googleplus = ""
-  #weibo = "*"
-  #tumblr = "*"
-
-  # SNS photo/video sharing
-  #instagram = "*"
-  #flickr = "*"
-  #photo500px = "*"
-  #pinterest = "*"
   youtube = "Linuturk"
-  #vimeo = "*"
-  #vine = "*"
-  #slideshare = "*"
-
-  # SNS career oriented
   linkedin = "linuturk"
-  #xing = "*"
-
-  # SNS news
   reddit = "Linuturk"
-  #hackernews = "Linuturk"
-
-  # Techie
   github = "linuturk"
-  #gitlab = "*"
-  #bitbucket = "*"
-  #stackoverflow = "*"
-  #serverfault = "*"
-
-  # Gaming
   steam = "linuturk"
-  #mobygames = "*"
-
-  # Music
-  #lastfm = "*"
-  #discogs = "*"
-
-  # Other
   keybase = "linuturk"

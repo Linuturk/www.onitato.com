@@ -3,7 +3,7 @@
 set -x
 set -e
 
-HUGO_BIN=/bin/hugo
+HUGO_BIN=/usr/local/bin/hugo
 HUGO_VERSION=0.49
 HUGO_DOWNLOAD=hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
@@ -13,5 +13,5 @@ if [ ! -f $HUGO_BIN ] || ! [[ `hugo version` =~ v${HUGO_VERSION} ]]; then
 		wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_DOWNLOAD} -O /tmp/${HUGO_DOWNLOAD}
 	fi
   	tar xvzf /tmp/${HUGO_DOWNLOAD} hugo
-  	mv hugo $HUGO_BIN
+  	sudo mv hugo $HUGO_BIN
 fi

@@ -45,9 +45,11 @@ Most people don't like writing documentation. Documenting your code is a constan
 
 Here is a preview of the generated markdown from this module:
 
+```jinja
 {{< fluid_imgs
   "pure-u-1-1|/images/cfautodoc/template_readme-example.png|Markdown Example"
 >}}
+```
 
 Having this tool in place means our support teams and customers never have to worry about out of date documentation. This leads to a greater confidence in what the CloudFormation template will be doing on their account. This also means that the various description and constraint description fields become more important in a template as these values are used in generating the markdown file.
 

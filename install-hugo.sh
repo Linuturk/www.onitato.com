@@ -4,7 +4,7 @@ set -x
 set -e
 
 HUGO_BIN=/usr/local/bin/hugo
-HUGO_VERSION=0.31.1
+HUGO_VERSION=0.49
 HUGO_DOWNLOAD=hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 # Install Hugo if not already cached or upgrade an old version.

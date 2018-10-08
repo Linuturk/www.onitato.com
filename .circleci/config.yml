@@ -9,6 +9,10 @@ jobs:
       - run: bash spell content/post/*
       - run: bash ./install-hugo.sh
       - run: hugo --cleanDestinationDir
+      - persist_to_workspace:
+          root: $HOME
+          paths:
+            - $CIRCLE_PROJECT_REPONAME/public
   deploy:
     docker:
       - image: circleci/python

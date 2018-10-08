@@ -20,8 +20,6 @@ jobs:
       - run: sudo pip install awscli
       - attach_workspace:
           at: workspace
-      - run: pwd
-      - run: ls -lah
       - run: aws s3 sync workspace/public s3://$BUCKET --delete
 workflows:
   version: 2

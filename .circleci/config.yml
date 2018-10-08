@@ -9,6 +9,7 @@ jobs:
       - run: bash spell content/post/*
       - run: bash ./install-hugo.sh
       - run: hugo --cleanDestinationDir
+      - run: pwd
       - run: ls -lah
       - persist_to_workspace:
           root: .

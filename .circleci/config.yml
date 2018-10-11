@@ -5,6 +5,7 @@ jobs:
       - image: circleci/golang
     steps:
       - checkout
+      - run: git submodule update --init --recursive
       - run: sudo apt install -y aspell
       - run: bash spell content/post/*
       - run: bash ./install-hugo.sh

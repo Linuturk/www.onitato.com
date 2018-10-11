@@ -8,7 +8,8 @@ jobs:
       - run: sudo apt install -y aspell
       - run: bash spell content/post/*
       - run: bash ./install-hugo.sh
-      - run: hugo --cleanDestinationDir
+      - run: hugo env
+      - run: hugo -v --cleanDestinationDir
       - persist_to_workspace:
           root: .
           paths:

@@ -45,8 +45,16 @@ cd /usr/local/bin/chocolatey
 mono choco.exe "$@" --allow-unofficial
 ```
 
-Build the image like you would any docker image. In the directory with the Dockerfile run **docker build -t choco .**
+Build the image like you would any docker image. In the directory with the Dockerfile run:
 
-Then, run a new container based on this new image: **docker run --rm -ti choco /bin/bash**
+```bash
+docker build -t choco .
+```
+
+Then, run a new container based on this new image:
+
+```bash
+docker run --rm -ti choco /bin/bash
+```
 
 Simply cd into the */usr/local/src/choco/choco-stable/build_output/chocolatey* directory and run **mono choco.exe -h** to test the install. Should work the way you are expecting.

@@ -7,7 +7,7 @@ Add me on your favorite gaming network:
  * [BattleTag](https://us.battle.net) / Linuturk#1600
  * [Discord](https://discordapp.com) / Linuturk#9335
  * [EA/Origin](https://myaccount.ea.com) / Linuturk
- * [Nintendo](https://my.nintendo.com/) / Linuturk
+ * [Nintendo](https://my.nintendo.com/) / Linuturk 0990-0190-4533
  * [Playstation Network](https://my.playstation.com/Linuturk) / Linuturk
  * [Warframe](https://www.warframe.com/) / Linuturk
  * [Xbox Live](http://www.xbox.com/) / Linuturk

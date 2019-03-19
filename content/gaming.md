@@ -10,6 +10,7 @@ Add me on your favorite gaming network:
 * [EA/Origin](https://myaccount.ea.com) / Linuturk
 * [Nintendo](https://my.nintendo.com/) / Linuturk 0990-0190-4533
 * [Playstation Network](https://my.playstation.com/Linuturk) / Linuturk
+* [Steam](https://steamcommunity.com/id/linuturk) / linuturk
 * [Twitch](https://www.twitch.tv/linuturk) / linuturk
 * [Warframe](https://www.warframe.com/) / Linuturk
 * [Xbox Live](http://www.xbox.com/) / Linuturk

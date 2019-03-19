@@ -11,7 +11,7 @@ description = "Implement logging for your favorite IRC channels."
 
 One of the disadvantages of using IRC over another chat medium is the lack of logging while you aren't connected to the server. In this article, I will describe the process I used to implement logging for my favorite IRC channels.
 
-## The Environment
+# The Environment
 
 [Pierc](https://github.com/classam/pierc) is my choice of logging bot for this article. It logs the contents of IRC channels to a MySQL instance, and presents an easy to use web interface.
 
@@ -37,7 +37,7 @@ passwd pierc
 
 Login as the pierc user, and let's begin the configuration.
 
-## Pierc Logger
+# Pierc Logger
 
 Installation and configuration instructions for Pierc can be found [here](http://classam.github.com/pierc/). I'm going to run through them at a higher level here.
 
@@ -50,11 +50,11 @@ Installation and configuration instructions for Pierc can be found [here](http:/
 python pierc_db.py
 ```
 
-## Pierc Web Interface
+# Pierc Web Interface
 
 The downloaded package also includes a web folder that contains all the files necessary for the web interface. Copy this to your Apache Document Root. You will need to copy the *config.php.example* file to *config.php* and then modify the necessary values to connect to the MySQL database.
 
-## Start Pierc
+# Start Pierc
 
 Start a *tmux* or *screen* session, and run the following command to start Pierc. You can then detach from your *tmux* or *screen* session, and Pierc will continue to run.
 

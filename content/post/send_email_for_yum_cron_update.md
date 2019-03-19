@@ -9,7 +9,7 @@ description = "Tell me when you yum"
 
 When using yum-cron, you might want to receive email notifications when updates are applied. Here is how you enable these notifications for CentOS. This article assumes a properly configured mail service.
 
-## Installing yum-cron
+# Installing yum-cron
 
 Install yum-cron using the yum package manager:
 
@@ -17,7 +17,7 @@ Install yum-cron using the yum package manager:
 yum install yum-cron
 ```
 
-## Configure yum-cron
+# Configure yum-cron
 
 Modify the **/etc/sysconfig/yum-cron** file and add your email address to the **MAILTO** line.
 
@@ -27,7 +27,7 @@ MAILTO=email@address.com
 
 Be sure to read up on the other settings in this file. You can disable automatic updates and only have the system send the notification.
 
-## Start yum-cron
+# Start yum-cron
 
 Start the service, and enable it to automatically start on system boot.
 

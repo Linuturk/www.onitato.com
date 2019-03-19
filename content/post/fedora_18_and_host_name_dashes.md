@@ -9,13 +9,13 @@ description = "Annoying problem for sure."
 
 I ran into an interesting problem today when installing the newly released [Fedora 18](https://fedoraproject.org/). It was quite annoying, so I wanted to document it here.
 
-<center>![Fedora 18](/images/f18_screenshot.png)</center>
+![Fedora 18](/images/f18_screenshot.png)
 
 Using the new installer, I configured my computer's host name to **subdomain.domain.com** on the network setup page. After I finished the installation, I noticed my host name was still the default **localhost.localdomain**. I tried the usual tricks to set the host name, but all the following tactics failed:
 
- * **/etc/sysconfig/network** by setting **HOSTNAME=subdomain.domain.com**
- * Using the **hostname subdomain.domain.com** command.
- * Changing the **System Settings > Details > Device name** field.
+* **/etc/sysconfig/network** by setting **HOSTNAME=subdomain.domain.com**
+* Using the **hostname subdomain.domain.com** command.
+* Changing the **System Settings > Details > Device name** field.
 
 I was able to get the host name set, but instead of **subdomain.domain.com**, the host name was displayed as **subdomain-domain-com**. No matter what I did, I couldn't get the correct host name.
 

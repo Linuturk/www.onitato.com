@@ -9,7 +9,7 @@ description = "No more Jenkins."
 
 Due to the difficulty in maintaining a full Jenkins instance, I have revisited the blog automation issue and have replaced Jenkins with Drone. Making use of a tool like Drone greatly simplifies the setup process and lowers the barrier of entry for this type of project.
 
-## Requirements
+# Requirements
 
 There are a few requirements for this setup:
 
@@ -20,17 +20,17 @@ There are a few requirements for this setup:
 
 You should also read my [original article](|filename|/articles/no_hassle_blog_automation.markdown).
 
-## Drone
+# Drone
 
 There are two options here for using Drone.
 
-#### Drone.io
+## Drone.io
 
 Register a free account at [Drone.io](https://drone.io/).
 
 Using Drone.io's free service has some disadvantages. You can't specify custom docker images for your testing. There also isn't a direct method to publish your blog output to Rackspace Cloud Files. I recommend you make use of the second option and run your own instance.
 
-#### Open Source Drone
+## Open Source Drone
 
 Run your own Drone instance using my [Ansible Drone Role](https://github.com/rack-roles/drone). Some key points of this setup include:
 
@@ -40,13 +40,13 @@ Run your own Drone instance using my [Ansible Drone Role](https://github.com/rac
 
 Documentation and install instructions are available on [Drone's GitHub Page](https://github.com/drone/drone#getting-started). You can follow these instructions if you are unfamiliar with Ansible.
 
-## Docker
+# Docker
 
 I maintain a Trusted Build in the Docker Registry for Pelican. The image name is [linuturk/pelican](https://index.docker.io/u/linuturk/pelican/). We will be using this image to simplify our .drone.yml.
 
 Remember, if you are using the free account provided by Drone.io, you won't be able to use this image.
 
-## .drone.yml
+# .drone.yml
 
 This file is used by the open source Drone.io to define the build process. You can find my current .drone.yml file [in my repository.](https://github.com/Linuturk/www.onitato.com/blob/master/.drone.yml)
 
@@ -73,7 +73,7 @@ There are three main sections to this file:
 
 The only options you should have to change for your deployment are *region* and *container*.
 
-## Setup
+# Setup
 
 Here is a high level overview of the setup steps:
 

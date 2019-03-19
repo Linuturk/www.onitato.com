@@ -7,7 +7,7 @@ date = "2015-08-06 13:00:00"
 description = "Rackspace Cloud Office Hours."
 +++
 
-<center>![Ansible Logo](/images/ansible_logo.png)</center>
+![Ansible Logo](/images/ansible_logo.png)
 
 Today I was a guest on Rackspace Cloud Office Hours talking about my recent Ansible Certified Engineer certification. There is a great article on the [Rackspace Blog](http://www.rackspace.com/blog/ansible-certified-engineer-justin-phelps-video/) with a Recap.
 

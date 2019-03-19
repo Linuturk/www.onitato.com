@@ -9,7 +9,7 @@ description = "Deploying Rackspace Cloud servers using salt-cloud."
 
 These instructions should be a nice and easy start to deploying Rackspace Cloud servers using the [salt-cloud](https://github.com/saltstack/salt-cloud) tool. Just follow along exactly, and at the end you should have a fully functional salt-cloud deployment tool.
 
-## Dependencies
+# Dependencies
 
 I'm performing my installation on a Debian 7 (Wheezy) server, where my salt-master already exists. The following two commands should install salt-cloud, and all the necessary dependencies. This assumes you are already using the Python tool pip.
 
@@ -18,11 +18,11 @@ apt-get install sshpass
 pip install salt-cloud apache-libcloud
 ```
 
-## Configuration
+# Configuration
 
 Here are the configuration files we need to put in place. Replace the appropriate sections with your account information.
 
-### /etc/salt/cloud.providers.d/rackspace.conf
+## /etc/salt/cloud.providers.d/rackspace.conf
 
 ```yaml
 my-rackspace-config:
@@ -59,7 +59,7 @@ Be sure to replace the appropriate sections with your specific information:
 * **tenant** is your Rackspace Account Number. This can be found at the top, right of your [Rackspace Control Panel](https://mycloud.rackspace.com).
 * **apikey** can be found in the [Rackspace Control Panel](https://mycloud.rackspace.com) as well. Just go to your Account Settings and look for the API Key.
 
-### /etc/salt/cloud.profiles.d/openstack.conf
+## /etc/salt/cloud.profiles.d/openstack.conf
 
 Here you define the different server profiles. These will determine options such as server size and operating system. Here's mine:
 
@@ -77,7 +77,7 @@ salt-cloud --list-sizes=my-rackspace-config
 salt-cloud --list-images=my-rackspace-config
 ```
 
-## Deployment
+# Deployment
 
 Now, let's deploy a test instance of the server we just defined.
 
@@ -100,7 +100,6 @@ testinstance:
         flavorId:
             2
         hostId:
-            
         imageId:
             23b564c9-c3e6-49f9-bc68-86c7a9ab5018
         key_name:
@@ -140,7 +139,7 @@ salt-cloud -d testinstance
 
 As you can see, this makes spinning up resources using SaltStack very easy, and automatically ties these new resources into your salt-master. Now go populate your profiles, and also checkout [maps](https://salt-cloud.readthedocs.org/en/latest/topics/map.html) to automate the deployment of many machines at once.
 
-## References
+# References
 
 The salt-cloud documentation was crucial to putting together this article:
 

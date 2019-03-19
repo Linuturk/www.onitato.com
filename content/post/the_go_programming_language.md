@@ -7,7 +7,7 @@ date = "2016-01-06"
 description = "Better GO read it..."
 +++
 
-<center>![Golang Gopher](/images/golanggopher.jpg)</center>
+![Golang Gopher](/images/golanggopher.jpg)
 
 I was fortunate to receive a review copy of [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/) by Alan A. A. Donovan and Brian W. Kernighan. The following is my review of this book based on my limited experience with Golang.
 

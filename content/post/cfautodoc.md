@@ -13,11 +13,11 @@ Testing and documentation of these templates is important to help us maintain a 
 
 Our testing process includes these three main steps:
 
- * Template Generation
- * Auto Documentation
- * Building and Testing a Stack
+* Template Generation
+* Auto Documentation
+* Building and Testing a Stack
 
-## Template Generation
+# Template Generation
 
 Our templates exist in a GitHub repository tied to CircleCI. Every change made to a template is fully tested and documented in an automated fashion. Our templates start as a jinja2 file that is then templated by Ansible. We are templating our templates! The template module in Ansible parses the jinja2 file and outputs a JSON CloudFormation template. The variables shown below get replaced when the template is generated.
 
@@ -32,7 +32,7 @@ Our templates exist in a GitHub repository tied to CircleCI. Every change made t
 
 This process allows us to update various parts of a template using variables defined in Ansible. This can be done at the command line to generate a unique template with customized properties. At the same time we avoid over complication of our jinja2 templates. Too many **for** or **if** statements can cause confusion and make a template unmaintainable. Striking the right balance between no jinja2 usage and full jinja2 usage has been important for readability and understanding what is actually created by this process.
 
-## Auto Documentation
+# Auto Documentation
 
 Most people don't like writing documentation. Documenting your code is a constant chore and never seems to be 100% accurate. To solve this problem I wrote a custom Ansible module to automatically document the generated CloudFormation template. The module parses the JSON and outputs a markdown file to be uploaded to GitHub. This means you don't have to read the JSON file to understand what parameters, resources, and outputs are provided by the template. This includes any defaults and descriptions related to those objects. This module can be found at [this location](https://github.com/Linuturk/cloudformation-autodoc/blob/master/library/cloudformation_autodoc.py). The following code shows usage of this module.
 
@@ -49,7 +49,7 @@ Here is a preview of the generated markdown from this module:
 
 Having this tool in place means our support teams and customers never have to worry about out of date documentation. This leads to a greater confidence in what the CloudFormation template will be doing on their account. This also means that the various description and constraint description fields become more important in a template as these values are used in generating the markdown file.
 
-## Building and Testing a Stack
+# Building and Testing a Stack
 
 Once we generate and document the template we launch the template on a test AWS account. This ensures the CloudFormation API can validate and successfully build the template. We also use Ansible to test the results of the CloudFormation template. This can include testing a URL that should be responding with certain content using the **uri** module.
 
@@ -71,6 +71,6 @@ Once we generate and document the template we launch the template on a test AWS 
 
 In our case we have a standard template that creates a VPC and the associated subnets across a number of Availability Zones. This template is the foundation for other templates that are created, such as an Elastic Beanstalk template. We use Ansible to map outputs from our standard networking template into parameters for our other templates for testing. This allows us to use these templates as building blocks to design and build customer architectures. The constant testing of these templates mean we will always know that these template blocks fit together nicely.
 
-## Summary
+# Summary
 
 With this framework in place we can ensure our CloudFormation templates are functional, reliable, and documented. It has been relatively easy to bring contributors up to speed on our testing framework due to the lower learning curve of Ansible. Eventually we hope to use this framework to deploy our templates to a common S3 bucket or other location for consumption outside of GitHub.

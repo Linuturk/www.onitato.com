@@ -12,14 +12,15 @@ My ISP is less than reliable so I decided to automate my modem restarts. I'm usi
 Using a combination of **curl**, **grep**, and **sed**, I was able to scrape the necessary pages to get information about the modem's status. The script then checks the status and restarts the modem if it detects a fault. The script uses curl to GET a specific URL with the necessary parameters. This GET request triggers the modem's restart.
 
 That line looks like this:
+
 ```bash
 curl -m 5 -s $HOST/reset.htm?reset_modem="Restart Cable Modem" &> /dev/null
 ```
 
 It uses the following arguments:
 
- * **-m** - Sets the max time for the curl command. This is so the script doesn't hang.
- * **-s** - Silences a portion of curl's output.
- * **&> /dev/null** - Redirects all remaining output to /dev/null.
+* **-m** - Sets the max time for the curl command. This is so the script doesn't hang.
+* **-s** - Silences a portion of curl's output.
+* **&> /dev/null** - Redirects all remaining output to /dev/null.
 
 You can find the script [in this GitHub repository](https://github.com/Linuturk/modem-restart-script/blob/master/modemCheck.sh). Hope this works for you as well. **Automate all the things!**

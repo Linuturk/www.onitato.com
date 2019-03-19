@@ -7,7 +7,7 @@ date = "2015-02-23 19:00:00"
 description = "Battle of the Python Config Management AllStars."
 +++
 
-<center>![SADevOps Logo](/images/SADevOps.png)</center>
+![SADevOps Logo](/images/SADevOps.png)
 
- * [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/220090452/)
- * [Slides]({filename}/slides/WebPageTest-SaltConf_2015.pdf)
+* [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/220090452/)
+* [Slides]({filename}/slides/WebPageTest-SaltConf_2015.pdf)

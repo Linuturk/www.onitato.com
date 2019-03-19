@@ -7,7 +7,7 @@ date = "2014-07-28 19:00:00"
 description = "Slides and materials for the SaltStack talk at SA DevOps."
 +++
 
-<center>![SADevOps Logo](/images/SADevOps.png)</center>
+![SADevOps Logo](/images/SADevOps.png)
 
- * [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/192818802/)
- * [Slides]({filename}/slides/sadevops-cicd-drone-docker.pdf)
+* [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/192818802/)
+* [Slides]({filename}/slides/sadevops-cicd-drone-docker.pdf)

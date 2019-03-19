@@ -9,7 +9,7 @@ description = "No more servers."
 
 In this third installment of my No Hassle Blog Automation series, I remove the necessity for running any infrastructure of my own. Drone has been replaced with a hosted solution at [CircleCI](https://circleci.com/). Their support is amazing, and their circle.yml format made configuration easy. Take a look at the [first](|filename|/articles/no_hassle_blog_automation.markdown) and [second](|filename|/articles/no_hassle_blog_automation_redux.markdown) installments of this series.
 
-## Requirements
+# Requirements
 
 There are a few requirements for this setup:
 
@@ -20,7 +20,7 @@ There are a few requirements for this setup:
 
 \* This container should be [configured to serve a static site](http://www.rackspace.com/blog/point-and-click-your-way-to-a-cloud-files-static-website-with-the-control-panel/).
 
-## circle.yml
+# circle.yml
 
 This file is used by CircleCI to define the test and build process. You can find my current circle.yml file [in my repository.](https://github.com/Linuturk/www.onitato.com/blob/master/circle.yml)
 
@@ -42,16 +42,16 @@ There are two sections to this file:
 
 You will need to set the following environment variables in the CircleCI Project configuration:
 
- * **RAXUSER** - Rackspace Cloud user name.
- * **RAXAPIKEY** - Rackspace Cloud api key.
- * **RAXREGION** - Cloud Files region where your container is located.
- * **CONTAINER** - Name of your Cloud Files container.
+* **RAXUSER** - Rackspace Cloud user name.
+* **RAXAPIKEY** - Rackspace Cloud api key.
+* **RAXREGION** - Cloud Files region where your container is located.
+* **CONTAINER** - Name of your Cloud Files container.
 
-## requirements.txt
+# requirements.txt
 
 You will also need to add a requirements.txt file to your Pelican blog repository. CircleCI will look at this file and install the listed pip packages. The contents should look like this:
 
-```
+```text
 pelican
 Markdown
 turbolift
@@ -59,7 +59,7 @@ turbolift
 
 This is much easier than manually installing things via pip myself.
 
-## Setup
+# Setup
 
 Here is a high level overview of the setup steps:
 

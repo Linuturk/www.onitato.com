@@ -60,6 +60,7 @@ ORD
 Octopress
 Onitato
 OpenStack
+Pangolin
 Plugin
 PowerShell
 Pyrax
@@ -73,6 +74,7 @@ Redux
 Rinke
 SADevOps
 SSL
+SYD
 SaltConf
 SaltStack
 Saltfile
@@ -141,6 +143,7 @@ filetype
 flavorId
 frameborder
 github
+golanggopher
 groupvars
 hostId
 hostname
@@ -160,6 +163,7 @@ ipv
 irc
 jenkins
 jinja
+jpg
 keepassx
 keypair
 libcloud
@@ -232,6 +236,7 @@ testinstance
 texas
 th
 thinkpad
+tlf
 tmux
 tulnp
 turbolift
@@ -263,5 +268,3 @@ yaml
 yml
 youtube
 zA
-SYD
-Pangolin

@@ -65,15 +65,21 @@ paginate = 5
     identifier = "gaming"
     url = "/gaming/"
   [[menu.main]]
+    name = "Nextcloud"
+    pre = "<i class='fa fa-cloud fa-fw'></i>"
+    weight = 7
+    identifier = "nextcloud"
+    url = "https://nextcloud.com/sharing#linuturk@nextcloud.onitato.com"
+  [[menu.main]]
     name = "Report Bug"
     pre = "<i class='fa fa-bug fa-fw'></i>"
-    weight = 7
+    weight = 8
     identifier = "bug"
     url = "https://github.com/Linuturk/www.onitato.com/issues"
   [[menu.main]]
     name = "Donate"
     pre = "<i class='fa fa-btc fa-fw'></i>"
-    weight = 8
+    weight = 9
     identifier = "bitcoin"
     url = "bitcoin:1FkKq8MSLuBMcE6NfvZ4qLhAYK6auTthTM"
 

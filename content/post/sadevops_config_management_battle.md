@@ -10,4 +10,4 @@ description = "Battle of the Python Config Management AllStars."
 ![SADevOps Logo](/images/SADevOps.png)
 
 * [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/220090452/)
-* [Slides]({filename}/slides/WebPageTest-SaltConf_2015.pdf)
+* [Slides](/slides/WebPageTest-SaltConf_2015.pdf)

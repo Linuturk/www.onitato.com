@@ -10,6 +10,8 @@ jobs:
       - run: bash spell content/post/*
       - run: bash ./install-hugo.sh
       - run: hugo env
+      - run: hugo check
+      - run: hugo config
       - run: hugo -v --cleanDestinationDir
       - persist_to_workspace:
           root: .

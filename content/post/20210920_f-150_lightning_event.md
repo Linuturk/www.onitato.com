@@ -5,7 +5,6 @@ topics = [ "impressions" ]
 slug = "f150-lightning-event-denver-co"
 date = "2021-09-20"
 description = "Pictures and video from the F-150 Lightning event in Denver, CO."
-draft = true
 +++
 
 ![Welcome and Registration Tent](/images/F-150-Lightning-Event/PXL_20210920_215617022.MP.jpg)

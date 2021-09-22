@@ -93,9 +93,9 @@ They had a TV in the bed of the truck powered by the Lightning displaying variou
 
 ![Lariat Powered Accessories](/images/F-150-Lightning-Event/Lariat/PXL_20210920_225743146.jpg)
 
-I think it's pretty funny the prototype still has the emissions warning from the Powerboost.
-
 ![Lariat CO2 Warning](/images/F-150-Lightning-Event/Lariat/PXL_20210920_230441580.jpg)
+
+I think it's pretty funny the prototype still has the emissions warning from the Powerboost.
 
 ### Behind the Wheels
 

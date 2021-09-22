@@ -115,7 +115,7 @@ If you peel it back, you'll see this reservoir with lime green liquid.
 
 ![Frunk Manual Icons](/images/F-150-Lightning-Event/Lariat/PXL_20210920_230415506.jpg)
 
-Some more icons on the plastic cover around the frunk. I also spied and indicator for traditional battery terminals on the left side, presumably for jumping in the case of a dead battery.
+Some more icons on the plastic cover around the Frunk. I also spied and indicator for traditional battery terminals on the left side, presumably for jumping in the case of a dead battery.
 
 ### Powered Accessories
 

@@ -222,3 +222,5 @@ I really enjoyed the event and I got to have lots of great discussions with the 
 I'm excited for the truck to come out, and more excited to learn more about the various trim level's pricing when that's available.
 
 Also, Ford could have made a killing if they'd sold hats, shirts, or other swag at the event. Pro-tip for the future Ford.
+
+![Lariat Selfie](/images/F-150-Lightning-Event/PXL_20210920_233815698.MP.jpg)

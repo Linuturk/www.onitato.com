@@ -3,7 +3,7 @@ title = "Post Title"
 tags = [ "tag1", "tag2", "tag3" ]
 topics = [ "topic1" ]
 slug = "post-slug"
-date = "202X-XX-XX"
+date = "202X-XX-XX 19:00:00"
 description = "Post Description"
 draft = true
 +++

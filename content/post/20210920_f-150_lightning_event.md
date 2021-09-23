@@ -115,7 +115,7 @@ If you peel it back, you'll see this reservoir with lime green liquid.
 
 ![Frunk Manual Icons](/images/F-150-Lightning-Event/Lariat/PXL_20210920_230415506.jpg)
 
-Some more icons on the plastic cover around the Frunk. I also spied and indicator for traditional battery terminals on the left side, presumably for jumping in the case of a dead battery.
+Some more icons on the plastic cover around the Frunk. I also spied an indicator for traditional battery terminals on the left side, presumably for jumping in the case of a dead battery.
 
 ### Powered Accessories
 
@@ -155,7 +155,7 @@ I was also able to get some interior shots as well.
 
 ## Frame
 
-Adjacent to the Lariat prototype, there was a F-150 Lightning frame that showed off some of it's features.
+Adjacent to the Lariat prototype, there was a F-150 Lightning frame that showed off some of its features.
 
 ![Lower Scheduled Maintenance](/images/F-150-Lightning-Event/frame/PXL_20210920_230003949.jpg)
 

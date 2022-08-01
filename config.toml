@@ -15,7 +15,7 @@ paginate = 5
   # Shown on the home page
   # subtitle = ""
   brand = "Onitato"
-  googleAnalytics = "UA-34793085-1"
+  googleAnalytics = "G-ERZFV9WYV6"
   disqus = "linuturksnatter"
   # CSS name for highlight.js
   highlightjs = "default"

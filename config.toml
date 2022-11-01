@@ -72,7 +72,7 @@ paginate = 5
     url = "https://nextcloud.com/sharing#linuturk@nextcloud.onitato.com"
   [[menu.main]]
     name = "Mastodon"
-    pre = "<i class="fa-brands fa-mastodon"></i>"
+    pre = "<i class='fa-brands fa-mastodon'></i>"
     weight = 8
     identifier = "mastodon"
     url = "https://toot.onitato.com/web/@linuturk"

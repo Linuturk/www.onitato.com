@@ -75,7 +75,7 @@ paginate = 5
     pre = "<i class='fa-brands fa-mastodon'></i>"
     weight = 8
     identifier = "mastodon"
-    url = "https://toot.onitato.com/web/@linuturk"
+    url = "https://toot.onitato.com/@linuturk"
   [[menu.main]]
     name = "Report Bug"
     pre = "<i class='fa fa-bug fa-fw'></i>"

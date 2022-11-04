@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang
+      - image: cimg/go
     steps:
       - checkout
       - run: git submodule update --init --recursive

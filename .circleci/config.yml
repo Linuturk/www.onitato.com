@@ -14,7 +14,6 @@ jobs:
     docker:
       - image: cimg/python:3.8
     steps:
-      - run: sudo pip install awscli
       - attach_workspace:
           at: workspace
       - run: make sync

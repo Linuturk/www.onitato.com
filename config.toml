@@ -71,12 +71,6 @@ paginate = 5
     identifier = "nextcloud"
     url = "https://nextcloud.com/sharing#linuturk@nextcloud.onitato.com"
   [[menu.main]]
-    name = "Mastodon"
-    pre = "<i class='fa-brands fa-mastodon'></i>"
-    weight = 8
-    identifier = "mastodon"
-    url = "https://toot.onitato.com/@linuturk"
-  [[menu.main]]
     name = "Report Bug"
     pre = "<i class='fa fa-bug fa-fw'></i>"
     weight = 9
@@ -92,6 +86,7 @@ paginate = 5
 [social]
   # Link your social networking accounts to the side menu
   # by entering your username or ID.
+  mastodon = "https://toot.onitato.com/@linuturk"
   twitter = "Linuturk"
   facebook = "linuturk"
   youtube = "Linuturk"

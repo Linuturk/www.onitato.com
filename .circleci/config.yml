@@ -12,7 +12,7 @@ jobs:
             - public
   deploy:
     docker:
-      - image: circleci/python
+      - image: cimg/python:3.8
     steps:
       - run: sudo pip install awscli
       - attach_workspace:

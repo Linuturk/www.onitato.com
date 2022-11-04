@@ -26,4 +26,4 @@ server:
 	hugo server --buildFuture --buildDrafts --buildExpired -D
 
 sync:
-	aws s3 sync workspace/public/ s3://$BUCKET --delete
+	aws s3 sync workspace/public/ s3://${BUCKET} --delete

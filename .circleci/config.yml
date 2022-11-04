@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run: git submodule update --init --recursive
-      - run: sudo apt install -y aspell
+      - run: sudo apt update && sudo apt install -y aspell
       - run: bash spell content/post/*
       - run: bash ./install-hugo.sh
       - run: hugo env

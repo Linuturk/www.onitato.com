@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cimg/go
+      - image: cimg/go:1.19.2
     steps:
       - checkout
       - run: git submodule update --init --recursive

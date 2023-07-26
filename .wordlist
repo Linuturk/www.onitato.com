@@ -55,6 +55,7 @@ creds
 cron
 curl's
 dbc
+dbdata
 debian
 Debian
 denver
@@ -74,6 +75,7 @@ env
 EV
 exe
 expandtab
+fediverse
 filename
 filetype
 flavorId
@@ -136,6 +138,7 @@ localhost
 Login
 LTS
 MAILTO
+mb
 md
 MeetUp
 metadata
@@ -178,6 +181,7 @@ Plugin
 plugins
 png
 postgres
+postgresql
 Powerboost
 PowerShell
 pre
@@ -218,6 +222,7 @@ sed
 setuptools
 sextillion
 shiftwidth
+shm
 sidekiq
 smartindent
 sosecret

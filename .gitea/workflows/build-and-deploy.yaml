@@ -8,7 +8,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
+      - name: Submodule
+        run: make submodule-init
+      - name: Dependencies
+        run: make deps
+      - name: Spellcheck
+        run: make spell
       - name: Build
-        run: make ci
+        run: make build
       - name: Deploy
         run: aws s3 sync ${{ gitea.workspace }}/public/ s3://${BUCKET} --delete

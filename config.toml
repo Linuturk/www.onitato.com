@@ -55,6 +55,12 @@ uglyURLs = true
     identifier = "about"
     url = "/about.html"
 
+[[params.social]]
+  key = 0
+  name = github
+  url = "https://github.com/linuturk"
+  icon = "fa-brands fa-github"
+
 [social]
   # Link your social networking accounts to the side menu
   # by entering your username or ID.

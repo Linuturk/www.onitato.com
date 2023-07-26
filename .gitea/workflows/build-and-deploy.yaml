@@ -17,4 +17,4 @@ jobs:
       - name: Build
         run: make build
       - name: Deploy
-        run: aws s3 sync ${{ gitea.workspace }}/public/ s3://${BUCKET} --delete
+        run: aws s3 sync ${{ gitea.workspace }}/public/ s3://${{ secrets.ONITATO_BUCKET }} --delete

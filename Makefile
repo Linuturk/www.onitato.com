@@ -15,7 +15,7 @@ spell:
 	
 build:
 	hugo env
-	hugo -v --cleanDestinationDir
+	hugo --logLevel info --cleanDestinationDir
 
 submodule-init:
 	git submodule update --init --recursive

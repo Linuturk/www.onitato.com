@@ -59,3 +59,8 @@ uglyURLs = true
   key = 2
   name = "linkedin"
   url = "https://linkedin.com/in/linuturk"
+
+[[params.social]]
+  key = 3
+  name = "status"
+  url = "https://status.onitato.com"

@@ -6,8 +6,8 @@ ci: submodule-init deps spell build
 dev: spell server
 
 deps:
-	sudo apt update && sudo apt install aspell
-	sudo pip3 install awscli
+	apt update && apt install aspell
+	pip3 install awscli
 	bash ./install-hugo.sh
 
 spell:

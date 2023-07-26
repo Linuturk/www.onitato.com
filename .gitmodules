@@ -1,6 +1,3 @@
-[submodule "themes/blackburn"]
-	path = themes/blackburn
-	url = https://github.com/Linuturk/blackburn.git
 [submodule "themes/nightfall"]
 	path = themes/nightfall
 	url = https://github.com/LordMathis/hugo-theme-nightfall.git

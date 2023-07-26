@@ -1,5 +1,6 @@
 +++
 title = "onitato?"
+showMetadata = false
 +++
 
 ![Oni](/images/oni.jpg)

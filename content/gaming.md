@@ -1,5 +1,6 @@
 +++
 title = "Gaming"
+showMetadata = false
 +++
 
 Add me on your favorite gaming network:

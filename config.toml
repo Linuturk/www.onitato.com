@@ -26,50 +26,36 @@ uglyURLs = true
   # Shown in the side menu.
   [[menu.header]]
     name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 1
-    identifier = "post"
     url = "/post.html"
   [[menu.header]]
     name = "Topics"
-    pre = "<i class='fa fa-folder fa-fw'></i>"
     weight = 2
-    identifier = "topic"
     url = "/topics.html"
   [[menu.header]]
     name = "Tags"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
     weight = 3
-    identifier = "tag"
     url = "/tags.html"
   [[menu.header]]
     name = "Gaming"
-    pre = "<i class='fa fa-gamepad fa-fw'></i>"
     weight = 4
-    identifier = "gaming"
     url = "/gaming.html"
   [[menu.header]]
     name = "About"
-    pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 5
-    identifier = "about"
     url = "/about.html"
 
 [[params.social]]
   key = 0
+  name = mastodon
+  url = "https://toot.onitato.com/@linuturk"
+
+[[params.social]]
+  key = 1
   name = github
   url = "https://github.com/linuturk"
-  icon = "fa-brands fa-github"
 
-[social]
-  # Link your social networking accounts to the side menu
-  # by entering your username or ID.
-  mastodon = "https://toot.onitato.com/@linuturk"
-  twitter = "Linuturk"
-  facebook = "linuturk"
-  youtube = "Linuturk"
-  linkedin = "linuturk"
-  reddit = "Linuturk"
-  github = "linuturk"
-  steam = "linuturk"
-  keybase = "linuturk"
+[[params.social]]
+  key = 2
+  name = linkedin
+  url = "https://linkedin.com/in/linuturk"

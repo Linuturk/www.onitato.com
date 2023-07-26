@@ -7,6 +7,7 @@ dev: spell server
 
 deps:
 	sudo apt update && sudo apt install aspell
+	sudo pip3 install awscli
 	bash ./install-hugo.sh
 
 spell:
@@ -24,7 +25,3 @@ submodule-update:
 
 server:
 	hugo server --buildFuture --buildDrafts --buildExpired -D
-
-sync:
-	sudo pip3 install awscli
-	aws s3 sync workspace/public/ s3://${BUCKET} --delete

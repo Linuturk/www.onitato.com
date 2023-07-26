@@ -40,31 +40,31 @@ uglyURLs = true
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
-    url = "/post/"
+    url = "/post.html"
   [[menu.main]]
     name = "Topics"
     pre = "<i class='fa fa-folder fa-fw'></i>"
     weight = 3
     identifier = "topic"
-    url = "/topics/"
+    url = "/topics.html"
   [[menu.main]]
     name = "Tags"
     pre = "<i class='fa fa-tags fa-fw'></i>"
     weight = 4
     identifier = "tag"
-    url = "/tags/"
+    url = "/tags.html"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 5
     identifier = "about"
-    url = "/about/"
+    url = "/about.html"
   [[menu.main]]
     name = "Gaming"
     pre = "<i class='fa fa-gamepad fa-fw'></i>"
     weight = 6
     identifier = "gaming"
-    url = "/gaming/"
+    url = "/gaming.html"
   [[menu.main]]
     name = "Nextcloud"
     pre = "<i class='fa fa-cloud fa-fw'></i>"

@@ -2,6 +2,11 @@ name: build-and-deploy
 
 on: [push]
 
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.S3_DEPLOY_ACCESS_KEY }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_DEPLOY_SECRET_KEY }}
+  AWS_DEFAULT_REGION: ${{ secrets.ONITATO_BUCKET_REGION }}
+
 jobs:
   Build-and-Deploy:
     runs-on: ubuntu-latest

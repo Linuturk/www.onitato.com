@@ -11,6 +11,7 @@ api
 API
 apikey
 Apikey
+appdata
 argparse
 attr
 auth
@@ -69,6 +70,7 @@ dropbox
 Dropbox
 ElasticBeanstalk
 ElasticBeanstalkStack
+env
 EV
 exe
 expandtab
@@ -78,6 +80,7 @@ flavorId
 frameborder
 Freenode
 Frunk
+GID
 github
 GitHub
 Golang
@@ -119,6 +122,7 @@ KeePassX
 Kernighan
 Kernighan's
 keypair
+kfCS
 Laasch
 LastUpdated
 libcloud
@@ -162,8 +166,12 @@ Pangolin
 param
 params
 passwd
+PathPrefix
 pdf
+PGID
 php
+pid
+pids
 pierc
 plugin
 Plugin
@@ -176,6 +184,7 @@ pre
 privateIPv
 proxied
 proxying
+PUID
 PXL
 py
 pyrax
@@ -190,10 +199,12 @@ RAXREGION
 RAXUSER
 readme
 README
+redis
 redux
 Redux
 REPONAME
 Rinke
+ruhc
 sadevops
 SADevOps
 saltconf
@@ -207,6 +218,7 @@ sed
 setuptools
 sextillion
 shiftwidth
+sidekiq
 smartindent
 sosecret
 src
@@ -234,13 +246,18 @@ thinkpad
 ThinkPad
 TItA
 tlf
+tmp
 tmux
+tootsuite
+traefik
 TTL
 tulnp
 turbolift
 txt
+TZ
 ubuntu
 Ubuntu
+UID
 unmaintainable
 UpdatedBy
 updatesd
@@ -281,5 +298,3 @@ yJyrQRY
 yml
 youtube
 zA
-kfCS
-ruhc

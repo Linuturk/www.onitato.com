@@ -1,0 +1,14 @@
+name: build-and-deploy
+
+on: [push]
+
+jobs:
+  Build-and-Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+      - name: Build
+        run: make ci
+      - name: Deploy
+        run: aws s3 sync ${{ gitea.workspace }}/public/ s3://${BUCKET} --delete

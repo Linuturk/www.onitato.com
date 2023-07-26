@@ -47,15 +47,15 @@ uglyURLs = true
 
 [[params.social]]
   key = 0
-  name = mastodon
+  name = "mastodon"
   url = "https://toot.onitato.com/@linuturk"
 
 [[params.social]]
   key = 1
-  name = github
+  name = "github"
   url = "https://github.com/linuturk"
 
 [[params.social]]
   key = 2
-  name = linkedin
+  name = "linkedin"
   url = "https://linkedin.com/in/linuturk"

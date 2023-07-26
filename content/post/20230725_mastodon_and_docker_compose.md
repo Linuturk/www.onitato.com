@@ -5,7 +5,6 @@ topics = [ "tech" ]
 slug = "mastodon-and-docker-compose"
 date = "2023-07-25 21:00:00"
 description = "This is how I run Mastodon using Docker Compose"
-draft = true
 +++
 
 ## Docker Compose

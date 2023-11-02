@@ -1,20 +1,19 @@
 #!/bin/bash
 
-FILES=$@
+FILES=( "$@" )
 WORDS="./.wordlist"
 FOUND=false
 
 spellcheck ()
 {
-	FILE=$1
-	cat $1 | aspell list --extra-dicts=$WORDS
+	aspell list --extra-dicts=$WORDS < "$1"
 }
-for i in $FILES
+for i in "${FILES[@]}"
 do
-	if [[ $(spellcheck $i) ]]
+	if [[ $(spellcheck "$i") ]]
 	then
 		echo "Checking: $i"
-		spellcheck $i
+		spellcheck "$i"
 		FOUND=true
 	fi
 done

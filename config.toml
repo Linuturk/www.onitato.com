@@ -63,5 +63,5 @@ uglyURLs = true
 
 [[params.social]]
   key = 3
-  name = "status"
-  url = "https://status.onitato.com"
+  name = "twitch"
+  url = "https://www.twitch.tv/linuturk"

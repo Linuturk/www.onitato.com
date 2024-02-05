@@ -65,3 +65,8 @@ uglyURLs = true
   key = 3
   name = "twitch"
   url = "https://www.twitch.tv/linuturk"
+
+[[params.social]]
+  key = 4
+  name = "facebook"
+  url = "https://www.facebook.com/linuturk"

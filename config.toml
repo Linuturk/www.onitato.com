@@ -13,7 +13,6 @@ uglyURLs = true
   topic = "topics"
 
 [params]
-  author = "Justin Phelps"
   user = "linuturk"
   hostname = "onitato.com"
   googleAnalytics = "G-ERZFV9WYV6"
@@ -22,6 +21,9 @@ uglyURLs = true
   highlightjs_extra_languages = ["yaml", "Dockerfile"]
   dateFormat = "Jan 02 2006, 15:04"
   footerHtml = '© 2023 Justin Phelps, powered by <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme.<br /><br /><iframe src="https://status.onitato.com/badge?theme=dark" width="180" height="30" frameborder="0" scrolling="no"></iframe>'
+    [params.author]
+      name = "Justin Phelps"
+      email = "linuturk@onitato.com"
 
 [menu]
   # Shown in the side menu.

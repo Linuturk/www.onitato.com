@@ -8,10 +8,10 @@ dev: spell server
 deps:
 	apt update && apt install aspell python3-pip -y
 	pip3 install awscli
-	bash ./install-hugo.sh
+	bash ./bin/install-hugo.sh
 
 spell:
-	bash spell content/post/*
+	bash bin/spell content/post/*
 	
 build:
 	hugo env

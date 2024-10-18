@@ -5,7 +5,7 @@ author = "Justin Phelps"
 copyright = "&copy; 2024. All rights reserved."
 theme = "nightfall"
 canonifyurls = true
-paginate = 5
+pagination.pagerSize = 5
 uglyURLs = true
 
 [indexes]

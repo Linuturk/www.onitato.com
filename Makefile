@@ -9,6 +9,7 @@ deps:
 	apt update && apt install aspell python3-pip -y
 	pip3 install awscli
 	bash ./bin/install-hugo.sh
+	bash ./bin/install-dart-sass.sh
 
 spell:
 	bash bin/spell content/post/*

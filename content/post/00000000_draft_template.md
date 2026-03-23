@@ -18,7 +18,7 @@ https://www.markdownguide.org/cheat-sheet/
 
 Unordered list with hyperlink:
 
-* [Link Text](http://example.com/)
+* [Link Text](https://example.com/)
 
 1. Ordered list
 

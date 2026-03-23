@@ -7,7 +7,7 @@ slug = "no-hassle-blog-automation"
 description = "Forget servers and OS Updates."
 +++
 
-Managing a blog can be a hassle. Operating system updates, blog software updates, and server security take up tons of time. Don't forget about scaling your blog if you get popular. Inspired by the [Rackspace DevOps post](http://devops.rackspace.com/the-new-devops-blog.html) on their new blog format, I've setup my own version using [Pelican](http://blog.getpelican.com/) instead of [Octopress](http://octopress.org/).
+Managing a blog can be a hassle. Operating system updates, blog software updates, and server security take up tons of time. Don't forget about scaling your blog if you get popular. Inspired by the [Rackspace DevOps post](https://devops.rackspace.com/the-new-devops-blog.html) on their new blog format, I've setup my own version using [Pelican](https://blog.getpelican.com/) instead of [Octopress](https://octopress.org/).
 
 # Resources
 
@@ -24,20 +24,20 @@ The remote server will be used to generate and upload the HTML for your blog. Th
 
 Let's take a look at the tools we will need to automate our blog:
 
-* [git](http://git-scm.com/)
-* [Pelican](http://blog.getpelican.com/)
-* [Jenkins](http://jenkins-ci.org/)
+* [git](https://git-scm.com/)
+* [Pelican](https://blog.getpelican.com/)
+* [Jenkins](https://jenkins-ci.org/)
 * [GitHub](https://github.com/)
-* [pyrax](http://docs.rackspace.com/sdks/guide/content/python.html)
-* [Rackspace Cloud Files](http://www.rackspace.com/cloud/files/)
+* [pyrax](https://docs.rackspace.com/sdks/guide/content/python.html)
+* [Rackspace Cloud Files](https://www.rackspace.com/cloud/files/)
 
 Now I'm going to detail out the setup instructions for each tool.
 
 ## git
 
-We are going to use git to provide a method of version control for our blog posts. In addition, we will be pushing our code to GitHub.com. A full git tutorial is outside the scope of this post. If you need a crash course in git, checkout this [awesome tutorial](http://try.github.com/).
+We are going to use git to provide a method of version control for our blog posts. In addition, we will be pushing our code to GitHub.com. A full git tutorial is outside the scope of this post. If you need a crash course in git, checkout this [awesome tutorial](https://try.github.com/).
 
-Installing git should be fairly simple. Instructions for various operating systems can be found [here](http://git-scm.com/downloads). Install this on your local workstation and remote server.
+Installing git should be fairly simple. Instructions for various operating systems can be found [here](https://git-scm.com/downloads). Install this on your local workstation and remote server.
 
 ## Pelican
 
@@ -50,7 +50,7 @@ easy_install pip
 pip install pelican Markdown
 ```
 
-Once you have this installed on your local workstation, you need to generate the necessary files using **pelican-quickstart**. You will need to run this in the git repository we clone from GitHub. I highly recommend the [Pelican Quick Start Documentation](http://docs.getpelican.com/en/3.1.1/getting_started.html) to help you with the details of configuring Pelican.
+Once you have this installed on your local workstation, you need to generate the necessary files using **pelican-quickstart**. You will need to run this in the git repository we clone from GitHub. I highly recommend the [Pelican Quick Start Documentation](https://docs.getpelican.com/en/3.1.1/getting_started.html) to help you with the details of configuring Pelican.
 
 **Note:** Do not generate your html on your local workstation. We are going to configure Jenkins to do this for us automatically on the remote server. No need to clutter our git repository with this output.
 
@@ -58,7 +58,7 @@ Once you have this installed on your local workstation, you need to generate the
 
 ### Installation
 
-Jenkins will need to be installed on the remote server only. Installation instructions for Jenkins can be found [here](http://jenkins-ci.org/). Check the right side of the page for your operating system. I chose CentOS 6.3 for my Jenkins server.
+Jenkins will need to be installed on the remote server only. Installation instructions for Jenkins can be found [here](https://jenkins-ci.org/). Check the right side of the page for your operating system. I chose CentOS 6.3 for my Jenkins server.
 
 After installation, be sure your service starts on boot and your firewall configuration has port 8080 open.
 
@@ -104,7 +104,7 @@ Put these in separate build steps. Be sure to save your settings.
 Login to Jenkins, and browse to **Manage Jenkins > Configure System**. Look for **GitHub Web Hook** towards the bottom of the page, and expand the help option on the right. This should provide you with a hook URL we'll use later. It should look similar to the following:
 
 ```text
-http://servername:8080/github-webhook/
+https://servername:8080/github-webhook/
 ```
 
 This should be all we need to do with Jenkins for now. Let's move on to GitHub.
@@ -120,7 +120,7 @@ GitHub will be the central repository for our blog's code. It will also be the l
 
 ## pyrax
 
-Installation instructions for the pyrax modules can be found [here](http://docs.rackspace.com/sdks/guide/content/python.html). We are relying on pip again for this installation. This should be installed on the remote server.
+Installation instructions for the pyrax modules can be found [here](https://docs.rackspace.com/sdks/guide/content/python.html). We are relying on pip again for this installation. This should be installed on the remote server.
 
 I've written a script to automatically empty a Cloud Files container and upload the static content Pelican generates with the **make html** command. The source for this script can be found on [my GitHub](https://github.com/Linuturk/www.onitato.com/blob/master/cf_pyrax.py).
 
@@ -179,4 +179,4 @@ Now, let's define the work flow for updating your blog:
 
 # Final Notes
 
-Good work! If everything went well, you now have a hassle free, automated blog. I recommend you read through the [Pelican documentation](http://docs.getpelican.com/en/3.1.1/), and play with themes for your blog. Feel free to reference my settings and file structure on [my GitHub](https://github.com/Linuturk/www.onitato.com).
+Good work! If everything went well, you now have a hassle free, automated blog. I recommend you read through the [Pelican documentation](https://docs.getpelican.com/en/3.1.1/), and play with themes for your blog. Feel free to reference my settings and file structure on [my GitHub](https://github.com/Linuturk/www.onitato.com).

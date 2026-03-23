@@ -9,5 +9,5 @@ description = "Slides and materials for Ansible and CloudFormation talk at SA De
 
 ![SADevOps Logo](/images/SADevOps.png)
 
-* [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/227865218/)
+* [MeetUp Link](https://www.meetup.com/SanAntonioDevOps/events/227865218/)
 * [Slides](/slides/Ansible-and-CloudFormation.pdf)

@@ -15,6 +15,6 @@ Add me on your favorite gaming network:
 * [Steam](https://steamcommunity.com/id/linuturk) / linuturk
 * [Twitch](https://www.twitch.tv/linuturk) / linuturk
 * [Warframe](https://www.warframe.com/) / Linuturk
-* [Xbox Live](http://www.xbox.com/) / Linuturk
+* [Xbox Live](https://www.xbox.com/) / Linuturk
 
 <iframe src="https://www.extra-life.org/index.cfm?fuseaction=widgets.300x250thermo&participantID=389240" width="302" height="252" frameborder="0" scrolling="no"><a href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=389240">Make a Donation!</a></iframe>

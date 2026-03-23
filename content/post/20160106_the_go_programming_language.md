@@ -9,7 +9,7 @@ description = "Better GO read it..."
 
 ![Golang Gopher](/images/golanggopher.jpg)
 
-I was fortunate to receive a review copy of [The Go Programming Language](http://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/) by Alan A. A. Donovan and Brian W. Kernighan. The following is my review of this book based on my limited experience with Golang.
+I was fortunate to receive a review copy of [The Go Programming Language](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440/) by Alan A. A. Donovan and Brian W. Kernighan. The following is my review of this book based on my limited experience with Golang.
 
 I'm new to Go. I've only been through the excellent [Tour of Go](https://tour.golang.org/welcome/1). This Tour gives you a great hands on trial of Go but leaves out some of the more complex topics that are covered by Donovan and Kernighan's book. I've made it through Chapter 5 which covers functions in detail. The book is well written and fairly easy to read but the subject matter can get quite dense at times. It takes dedication to read and may require you to look up concepts or terminology.
 

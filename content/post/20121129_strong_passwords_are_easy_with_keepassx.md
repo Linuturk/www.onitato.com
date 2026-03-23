@@ -7,7 +7,7 @@ slug = "strong-passwords-are-easy-with-keepassx"
 description = "hunter2"
 +++
 
-Strong passwords are important, today more than ever. Clever passwords like "Password123", ["hunter2"](http://www.bash.org/?244321), and [just the letter "a"](http://www.thewebsiteisdown.com/) just won't cut it anymore. How can someone create strong passwords, use a different one for every account they have, and still remember them all? [KeePassX](http://www.keepassx.org/) is the answer.
+Strong passwords are important, today more than ever. Clever passwords like "Password123", ["hunter2"](https://www.bash.org/?244321), and [just the letter "a"](https://www.thewebsiteisdown.com/) just won't cut it anymore. How can someone create strong passwords, use a different one for every account they have, and still remember them all? [KeePassX](https://www.keepassx.org/) is the answer.
 
 ![KeePassX](/images/keepassx_logo.png)
 
@@ -17,7 +17,7 @@ KeePassX is a password database. It allows you to create an encrypted database f
 
 Take a second and think about your most complicated password. How many characters is it? Does it have a mix of letters, numbers, and symbols? How long did it take you to memorize that password? Do you use the same password across multiple sites, including your bank and email?
 
-Think the passwords at the top of the post are good enough? Here is how long it would take your average desktop PC to crack those passwords [http://www.howsecureismypassword.net/](http://www.howsecureismypassword.net/):
+Think the passwords at the top of the post are good enough? Here is how long it would take your average desktop PC to crack those passwords [https://www.howsecureismypassword.net/](https://www.howsecureismypassword.net/):
 
 * **Password123** - 412 years (easily guessable though!)
 * **hunter2** - 19 seconds

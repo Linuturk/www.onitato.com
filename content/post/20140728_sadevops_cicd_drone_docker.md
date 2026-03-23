@@ -9,5 +9,5 @@ description = "Slides and materials for the SaltStack talk at SA DevOps."
 
 ![SADevOps Logo](/images/SADevOps.png)
 
-* [MeetUp Link](http://www.meetup.com/SanAntonioDevOps/events/192818802/)
+* [MeetUp Link](https://www.meetup.com/SanAntonioDevOps/events/192818802/)
 * [Slides](/slides/sadevops-cicd-drone-docker.pdf)

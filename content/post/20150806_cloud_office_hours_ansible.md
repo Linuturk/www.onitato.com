@@ -9,7 +9,7 @@ description = "Rackspace Cloud Office Hours."
 
 ![Ansible Logo](/images/ansible_logo.png)
 
-Today I was a guest on Rackspace Cloud Office Hours talking about my recent Ansible Certified Engineer certification. There is a great article on the [Rackspace Blog](http://www.rackspace.com/blog/ansible-certified-engineer-justin-phelps-video/) with a Recap.
+Today I was a guest on Rackspace Cloud Office Hours talking about my recent Ansible Certified Engineer certification. There is a great article on the [Rackspace Blog](https://www.rackspace.com/blog/ansible-certified-engineer-justin-phelps-video/) with a Recap.
 
 Here is the recording of the Hangout:
 

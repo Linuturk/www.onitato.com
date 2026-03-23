@@ -7,7 +7,7 @@ slug = "load-balancing-in-the-cloud"
 description = "Share the load."
 +++
 
-*This article is in response to a [request](https://github.com/Linuturk/www.onitato.com/issues/2) by Shawn Laasch and Jordan Rinke. [Request](https://github.com/Linuturk/www.onitato.com/issues) your topic today! This article will focus on [Rackspace Cloud Load Balancers](http://www.rackspace.com/cloud/load-balancing/).*
+*This article is in response to a [request](https://github.com/Linuturk/www.onitato.com/issues/2) by Shawn Laasch and Jordan Rinke. [Request](https://github.com/Linuturk/www.onitato.com/issues) your topic today! This article will focus on [Rackspace Cloud Load Balancers](https://www.rackspace.com/cloud/load-balancing/).*
 
 # Cloud Load Balancers
 
@@ -26,18 +26,18 @@ There are other methods of load balancing that don't involve Cloud Load Balancer
 
 ## HAProxy
 
-[HAProxy](http://haproxy.1wt.eu/) is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for web sites crawling under very high loads while needing persistence or Layer7 processing. Supporting tens of thousands of connections is clearly realistic with today's hardware.
+[HAProxy](https://haproxy.1wt.eu/) is a free, very fast and reliable solution offering high availability, load balancing, and proxying for TCP and HTTP-based applications. It is particularly suited for web sites crawling under very high loads while needing persistence or Layer7 processing. Supporting tens of thousands of connections is clearly realistic with today's hardware.
 
 ## nginx
 
-[nginx](http://nginx.org/) [engine x] is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VKontakte, and Rambler. According to Netcraft nginx served or proxied 12.81% busiest sites in February 2013.
+[nginx](https://nginx.org/) [engine x] is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VKontakte, and Rambler. According to Netcraft nginx served or proxied 12.81% busiest sites in February 2013.
 
 ## DNS Round Robin
 
-[Round Robin DNS & DDNS](http://en.wikipedia.org/wiki/Round-robin_DNS) is a technique of load distribution, load balancing, or fault-tolerance provisioning multiple, redundant Internet Protocol service hosts, e.g., Web servers, FTP servers, by managing the Domain Name System's (DNS) responses to address requests from client computers according to an appropriate statistical model.
+[Round Robin DNS & DDNS](https://en.wikipedia.org/wiki/Round-robin_DNS) is a technique of load distribution, load balancing, or fault-tolerance provisioning multiple, redundant Internet Protocol service hosts, e.g., Web servers, FTP servers, by managing the Domain Name System's (DNS) responses to address requests from client computers according to an appropriate statistical model.
 
 # Conclusion
 
-Besides Rackspace Cloud Load Balancers, I have to say my favorite method of load balancing is HAProxy. The reason I prefer HAProxy over the other methods is the robust [Status Page](http://demo.1wt.eu/) that is available by default. This gives you tons of insight into the traffic hitting your systems.
+Besides Rackspace Cloud Load Balancers, I have to say my favorite method of load balancing is HAProxy. The reason I prefer HAProxy over the other methods is the robust [Status Page](https://demo.1wt.eu/) that is available by default. This gives you tons of insight into the traffic hitting your systems.
 
 **See this site's disclaimer for information on the accuracy of this post.**

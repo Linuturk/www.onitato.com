@@ -7,7 +7,7 @@ slug = "running-a-wesnoth-server"
 description = "Play together."
 +++
 
-[The Battle for Wesnoth](http://www.wesnoth.org/) is a turn based strategy game that has unique and fun campaigns and great multiplayer maps. Playing on the official server is fun, but sometimes you'll want a private server on which you and your close friends can play.
+[The Battle for Wesnoth](https://www.wesnoth.org/) is a turn based strategy game that has unique and fun campaigns and great multiplayer maps. Playing on the official server is fun, but sometimes you'll want a private server on which you and your close friends can play.
 
 ![The Battle for Wesnoth](/images/wesnoth_logo.jpg)
 

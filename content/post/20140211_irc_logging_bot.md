@@ -39,7 +39,7 @@ Login as the pierc user, and let's begin the configuration.
 
 # Pierc Logger
 
-Installation and configuration instructions for Pierc can be found [here](http://classam.github.com/pierc/). I'm going to run through them at a higher level here.
+Installation and configuration instructions for Pierc can be found [here](https://classam.github.com/pierc/). I'm going to run through them at a higher level here.
 
 1. Create a database for pierc to use. Create a limited user with full permissions on this new database, and jot down the account details for future reference.
 1. Obtain the [latest copy](https://github.com/classam/pierc/tarball/master) and unpack this in the pierc user's home directory.

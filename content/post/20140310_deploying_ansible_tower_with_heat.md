@@ -66,7 +66,7 @@ parameters:
   ansible_tower_tarball:
     description: Location of the Ansible Tower installer
     type: string
-    default: http://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+    default: https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
 
   ansible_release_folder:
     description: Folder name that is extracted from the installer
@@ -182,4 +182,4 @@ outputs:
 
 # Ansible Tower
 
-Ansible Tower is a solid graphical interface that gives you visibility into your Ansible jobs and a REST API. You currently get access to this with 10 nodes, for free. See [Ansible's Site](http://www.ansible.com/tower) for more information and pricing.
+Ansible Tower is a solid graphical interface that gives you visibility into your Ansible jobs and a REST API. You currently get access to this with 10 nodes, for free. See [Ansible's Site](https://www.ansible.com/tower) for more information and pricing.

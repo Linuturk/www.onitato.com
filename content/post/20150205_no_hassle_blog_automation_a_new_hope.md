@@ -18,7 +18,7 @@ There are a few requirements for this setup:
 * Existing Pelican Blog
 * GitHub Account
 
-\* This container should be [configured to serve a static site](http://www.rackspace.com/blog/point-and-click-your-way-to-a-cloud-files-static-website-with-the-control-panel/).
+\* This container should be [configured to serve a static site](https://www.rackspace.com/blog/point-and-click-your-way-to-a-cloud-files-static-website-with-the-control-panel/).
 
 # circle.yml
 

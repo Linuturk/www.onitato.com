@@ -1,6 +1,6 @@
 .PHONY: ci dev deps spell build submodule-init submodule-update server sync
 
-defaults: dev
+default: dev
 
 ci: submodule-init deps spell build
 dev: spell server
@@ -12,7 +12,7 @@ deps:
 	bash ./bin/install-dart-sass.sh
 
 spell:
-	bash bin/spell content/post/*
+	bash bin/spell content/post/* content/about.md content/gaming.md
 	
 build:
 	hugo env

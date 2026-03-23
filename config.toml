@@ -2,15 +2,20 @@ locale = "en-us"
 baseURL = "https://www.onitato.com/"
 title = "Linuturk's Natter"
 author = "Justin Phelps"
-copyright = "&copy; 2024. All rights reserved."
+copyright = "&copy; 2026. All rights reserved."
 theme = "nightfall"
 canonifyurls = true
 pagination.pagerSize = 5
 uglyURLs = true
 
-[indexes]
+[taxonomies]
   tag = "tags"
   topic = "topics"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   user = "linuturk"

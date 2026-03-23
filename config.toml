@@ -1,4 +1,4 @@
-languageCode = "en-us"
+locale = "en-us"
 baseURL = "https://www.onitato.com/"
 title = "Linuturk's Natter"
 author = "Justin Phelps"

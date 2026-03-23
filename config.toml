@@ -30,15 +30,15 @@ uglyURLs = true
   [[menu.header]]
     name = "Posts"
     weight = 1
-    url = "/post.html"
+    url = "/post/index.html"
   [[menu.header]]
     name = "Topics"
     weight = 2
-    url = "/topics.html"
+    url = "/topics/index.html"
   [[menu.header]]
     name = "Tags"
     weight = 3
-    url = "/tags.html"
+    url = "/tags/index.html"
   [[menu.header]]
     name = "Gaming"
     weight = 4
